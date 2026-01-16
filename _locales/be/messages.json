@@ -1,0 +1,9 @@
+{
+  "extensionName": { "message": "CopyTabs - Copy/Paste Tab Links" },
+  "extensionDescription": { "message": "Капіраванне спасылак усіх адкрытых укладак і адкрыццё іх пазней." },
+  "copySuccess": { "message": "Спасылкі скапіяваны!" },
+  "copyError": { "message": "Памылка капіявання" },
+  "pasteError": { "message": "Няма сапраўдных спасылак у буферы абмену" },
+  "contextMenuCopy": { "message": "Капіяваць спасылкі ўкладак" },
+  "contextMenuPaste": { "message": "Уставіць спасылкі ўкладак" }
+}
