@@ -1,0 +1,21 @@
+{
+  "extensionName": {
+    "message": "Copy Paste Tab Links"
+  },
+  "extensionDescription": {
+    "message": "선택한 모든 탭의 URL을 복사하고 클립보드에서 URL을 엽니다."
+  },
+  "copyUrlSingular": {
+    "message": "페이지 주소 복사"
+  },
+  "copyUrlPlural": {
+    "message": "페이지 주소 복사"
+  },
+  "openUrlSingular": {
+    "message": "클립보드에서 주소 열기"
+  },
+  "openUrlPlural": {
+    "message": "클립보드에서 주소 열기"
+  }
+}
+

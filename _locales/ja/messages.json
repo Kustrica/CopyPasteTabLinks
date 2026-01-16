@@ -1,0 +1,21 @@
+{
+  "extensionName": {
+    "message": "Copy Paste Tab Links"
+  },
+  "extensionDescription": {
+    "message": "選択したすべてのタブのURLをコピーし、クリップボードからURLを開きます。"
+  },
+  "copyUrlSingular": {
+    "message": "ページのアドレスをコピー"
+  },
+  "copyUrlPlural": {
+    "message": "ページの複数のアドレスをコピー"
+  },
+  "openUrlSingular": {
+    "message": "クリップボードからアドレスを開く"
+  },
+  "openUrlPlural": {
+    "message": "クリップボードから複数のアドレスを開く"
+  }
+}
+

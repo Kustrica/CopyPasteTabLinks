@@ -1,0 +1,21 @@
+{
+  "extensionName": {
+    "message": "Copy Paste Tab Links"
+  },
+  "extensionDescription": {
+    "message": "Copia as URLs de todas as abas selecionadas e abre URLs da área de transferência."
+  },
+  "copyUrlSingular": {
+    "message": "Copiar endereço da página"
+  },
+  "copyUrlPlural": {
+    "message": "Copiar endereços das páginas"
+  },
+  "openUrlSingular": {
+    "message": "Abrir endereço da área de transferência"
+  },
+  "openUrlPlural": {
+    "message": "Abrir endereços da área de transferência"
+  }
+}
+

@@ -1,0 +1,21 @@
+{
+  "extensionName": {
+    "message": "Copy Paste Tab Links"
+  },
+  "extensionDescription": {
+    "message": "Seçilen tüm sekmelerin URL'lerini kopyalar ve panodaki URL'leri açar."
+  },
+  "copyUrlSingular": {
+    "message": "Sayfa adresini kopyala"
+  },
+  "copyUrlPlural": {
+    "message": "Sayfa adreslerini kopyala"
+  },
+  "openUrlSingular": {
+    "message": "Panodan adresi aç"
+  },
+  "openUrlPlural": {
+    "message": "Panodan adresleri aç"
+  }
+}
+

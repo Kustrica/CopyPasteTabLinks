@@ -1,0 +1,21 @@
+{
+  "extensionName": {
+    "message": "Copy Paste Tab Links"
+  },
+  "extensionDescription": {
+    "message": "Sao chép URL của tất cả các tab đã chọn và mở URL từ bảng nhớ tạm."
+  },
+  "copyUrlSingular": {
+    "message": "Sao chép địa chỉ trang"
+  },
+  "copyUrlPlural": {
+    "message": "Sao chép địa chỉ các trang"
+  },
+  "openUrlSingular": {
+    "message": "Mở địa chỉ từ bảng nhớ tạm"
+  },
+  "openUrlPlural": {
+    "message": "Mở các địa chỉ từ bảng nhớ tạm"
+  }
+}
+

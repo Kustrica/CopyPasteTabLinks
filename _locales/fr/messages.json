@@ -1,0 +1,21 @@
+{
+  "extensionName": {
+    "message": "Copy Paste Tab Links"
+  },
+  "extensionDescription": {
+    "message": "Copie les URL de tous les onglets sélectionnés et ouvre les URL depuis le presse-papiers."
+  },
+  "copyUrlSingular": {
+    "message": "Copier l'adresse de la page"
+  },
+  "copyUrlPlural": {
+    "message": "Copier les adresses des pages"
+  },
+  "openUrlSingular": {
+    "message": "Ouvrir l'adresse depuis le presse-papiers"
+  },
+  "openUrlPlural": {
+    "message": "Ouvrir les adresses depuis le presse-papiers"
+  }
+}
+

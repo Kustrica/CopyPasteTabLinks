@@ -1,0 +1,21 @@
+{
+  "extensionName": {
+    "message": "Copy Paste Tab Links"
+  },
+  "extensionDescription": {
+    "message": "复制所有选定标签页的网址，并打开剪贴板中的网址。"
+  },
+  "copyUrlSingular": {
+    "message": "复制网页地址"
+  },
+  "copyUrlPlural": {
+    "message": "复制多个网页地址"
+  },
+  "openUrlSingular": {
+    "message": "打开剪贴板中的地址"
+  },
+  "openUrlPlural": {
+    "message": "打开剪贴板中的多个地址"
+  }
+}
+

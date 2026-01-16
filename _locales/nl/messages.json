@@ -1,0 +1,21 @@
+{
+  "extensionName": {
+    "message": "Copy Paste Tab Links"
+  },
+  "extensionDescription": {
+    "message": "Kopieert URL's van alle geselecteerde tabbladen en opent URL's vanaf het klembord."
+  },
+  "copyUrlSingular": {
+    "message": "Pagina-adres kopiëren"
+  },
+  "copyUrlPlural": {
+    "message": "Pagina-adressen kopiëren"
+  },
+  "openUrlSingular": {
+    "message": "Adres openen vanaf klembord"
+  },
+  "openUrlPlural": {
+    "message": "Adressen openen vanaf klembord"
+  }
+}
+

@@ -1,0 +1,21 @@
+{
+  "extensionName": {
+    "message": "Copy Paste Tab Links"
+  },
+  "extensionDescription": {
+    "message": "複製所有選定分頁的網址，並開啟剪貼簿中的網址。"
+  },
+  "copyUrlSingular": {
+    "message": "複製網頁地址"
+  },
+  "copyUrlPlural": {
+    "message": "複製多個網頁地址"
+  },
+  "openUrlSingular": {
+    "message": "開啟剪貼簿中的地址"
+  },
+  "openUrlPlural": {
+    "message": "開啟剪貼簿中的多個地址"
+  }
+}
+

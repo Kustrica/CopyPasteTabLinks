@@ -1,0 +1,21 @@
+{
+  "extensionName": {
+    "message": "Copy Paste Tab Links"
+  },
+  "extensionDescription": {
+    "message": "Копіює URL-адреси всіх вибраних вкладок і відкриває URL-адреси з буфера обміну."
+  },
+  "copyUrlSingular": {
+    "message": "Копіювати адресу сторінки"
+  },
+  "copyUrlPlural": {
+    "message": "Копіювати адреси сторінок"
+  },
+  "openUrlSingular": {
+    "message": "Відкрити адресу з буфера обміну"
+  },
+  "openUrlPlural": {
+    "message": "Відкрити адреси з буфера обміну"
+  }
+}
+

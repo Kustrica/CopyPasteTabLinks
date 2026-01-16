@@ -1,0 +1,21 @@
+{
+  "extensionName": {
+    "message": "Copy Paste Tab Links"
+  },
+  "extensionDescription": {
+    "message": "Copia las URL de todas las pestañas seleccionadas y abre las URL del portapapeles."
+  },
+  "copyUrlSingular": {
+    "message": "Copiar dirección de la página"
+  },
+  "copyUrlPlural": {
+    "message": "Copiar direcciones de las páginas"
+  },
+  "openUrlSingular": {
+    "message": "Abrir dirección desde el portapapeles"
+  },
+  "openUrlPlural": {
+    "message": "Abrir direcciones desde el portapapeles"
+  }
+}
+

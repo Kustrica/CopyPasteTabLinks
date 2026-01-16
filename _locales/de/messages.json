@@ -1,0 +1,21 @@
+{
+  "extensionName": {
+    "message": "Copy Paste Tab Links"
+  },
+  "extensionDescription": {
+    "message": "Kopiert URLs aller ausgewählten Tabs und öffnet URLs aus der Zwischenablage."
+  },
+  "copyUrlSingular": {
+    "message": "Seitenadresse kopieren"
+  },
+  "copyUrlPlural": {
+    "message": "Seitenadressen kopieren"
+  },
+  "openUrlSingular": {
+    "message": "Adresse aus der Zwischenablage öffnen"
+  },
+  "openUrlPlural": {
+    "message": "Adressen aus der Zwischenablage öffnen"
+  }
+}
+

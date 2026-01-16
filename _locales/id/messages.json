@@ -1,0 +1,21 @@
+{
+  "extensionName": {
+    "message": "Copy Paste Tab Links"
+  },
+  "extensionDescription": {
+    "message": "Menyalin URL semua tab yang dipilih dan membuka URL dari papan klip."
+  },
+  "copyUrlSingular": {
+    "message": "Salin alamat halaman"
+  },
+  "copyUrlPlural": {
+    "message": "Salin alamat halaman"
+  },
+  "openUrlSingular": {
+    "message": "Buka alamat dari papan klip"
+  },
+  "openUrlPlural": {
+    "message": "Buka alamat dari papan klip"
+  }
+}
+

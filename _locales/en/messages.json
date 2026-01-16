@@ -1,0 +1,21 @@
+{
+  "extensionName": {
+    "message": "Copy Paste Tab Links"
+  },
+  "extensionDescription": {
+    "message": "Copies URLs of all selected tabs and opens URLs from the clipboard."
+  },
+  "copyUrlSingular": {
+    "message": "Copy Page Address"
+  },
+  "copyUrlPlural": {
+    "message": "Copy Page Addresses"
+  },
+  "openUrlSingular": {
+    "message": "Open Page Address from Clipboard"
+  },
+  "openUrlPlural": {
+    "message": "Open Page Addresses from Clipboard"
+  }
+}
+

@@ -1,0 +1,21 @@
+{
+  "extensionName": {
+    "message": "Copy Paste Tab Links"
+  },
+  "extensionDescription": {
+    "message": "ينسخ عناوين URL لجميع علامات التبويب المحددة ويفتح عناوين URL من الحافظة."
+  },
+  "copyUrlSingular": {
+    "message": "نسخ عنوان الصفحة"
+  },
+  "copyUrlPlural": {
+    "message": "نسخ عناوين الصفحات"
+  },
+  "openUrlSingular": {
+    "message": "فتح العنوان من الحافظة"
+  },
+  "openUrlPlural": {
+    "message": "فتح العناوين من الحافظة"
+  }
+}
+

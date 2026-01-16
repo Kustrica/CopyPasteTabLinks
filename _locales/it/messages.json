@@ -1,0 +1,21 @@
+{
+  "extensionName": {
+    "message": "Copy Paste Tab Links"
+  },
+  "extensionDescription": {
+    "message": "Copia gli URL di tutte le schede selezionate e apre gli URL dagli appunti."
+  },
+  "copyUrlSingular": {
+    "message": "Copia indirizzo della pagina"
+  },
+  "copyUrlPlural": {
+    "message": "Copia indirizzi delle pagine"
+  },
+  "openUrlSingular": {
+    "message": "Apri indirizzo dagli appunti"
+  },
+  "openUrlPlural": {
+    "message": "Apri indirizzi dagli appunti"
+  }
+}
+

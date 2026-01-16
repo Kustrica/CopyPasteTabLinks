@@ -1,0 +1,21 @@
+{
+  "extensionName": {
+    "message": "Copy Paste Tab Links"
+  },
+  "extensionDescription": {
+    "message": "Kopiuje adresy URL wszystkich wybranych kart i otwiera adresy URL ze schowka."
+  },
+  "copyUrlSingular": {
+    "message": "Kopiuj adres strony"
+  },
+  "copyUrlPlural": {
+    "message": "Kopiuj adresy stron"
+  },
+  "openUrlSingular": {
+    "message": "Otwórz adres ze schowka"
+  },
+  "openUrlPlural": {
+    "message": "Otwórz adresy ze schowka"
+  }
+}
+
