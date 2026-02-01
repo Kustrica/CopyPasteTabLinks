@@ -16,6 +16,35 @@
   },
   "openUrlPlural": {
     "message": "Otwórz adresy ze schowka"
+  },
+  "optionsTitle": {
+    "message": "Ustawienia"
+  },
+  "pasteNew": {
+    "message": "Nowe okno"
+  },
+  "copyFormatLabel": {
+    "message": "Format kopiowania:"
+  },
+  "fmtHtml": {
+    "message": "Link HTML"
+  },
+  "fmtMarkdown": {
+    "message": "Markdown [Tytuł](Url)"
+  },
+  "fmtText": {
+    "message": "Tylko URL"
+  },
+  "pasteCurrent": {
+    "message": "Bieżące okno"
+  },
+  "saved": {
+    "message": "Zapisano"
+  },
+  "settingsTitle": {
+    "message": "Ustawienia"
+  },
+  "pasteBehaviorLabel": {
+    "message": "Zachowanie wklejania:"
   }
 }
-

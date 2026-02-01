@@ -16,6 +16,35 @@
   },
   "openUrlPlural": {
     "message": "Відкрити адреси з буфера обміну"
+  },
+  "optionsTitle": {
+    "message": "Налаштування"
+  },
+  "pasteNew": {
+    "message": "Нове вікно"
+  },
+  "copyFormatLabel": {
+    "message": "Формат копіювання:"
+  },
+  "fmtHtml": {
+    "message": "HTML посилання"
+  },
+  "fmtMarkdown": {
+    "message": "Markdown [Заголовок](Url)"
+  },
+  "fmtText": {
+    "message": "Тільки посилання"
+  },
+  "pasteCurrent": {
+    "message": "Поточне вікно"
+  },
+  "saved": {
+    "message": "Збережено"
+  },
+  "settingsTitle": {
+    "message": "Налаштування"
+  },
+  "pasteBehaviorLabel": {
+    "message": "Поведінка вставки:"
   }
 }
-

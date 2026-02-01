@@ -16,6 +16,35 @@
   },
   "openUrlPlural": {
     "message": "Ouvrir les adresses depuis le presse-papiers"
+  },
+  "optionsTitle": {
+    "message": "Paramètres"
+  },
+  "pasteNew": {
+    "message": "Nouvelle fenêtre"
+  },
+  "copyFormatLabel": {
+    "message": "Format de copie :"
+  },
+  "fmtHtml": {
+    "message": "Lien HTML"
+  },
+  "fmtMarkdown": {
+    "message": "Markdown [Titre](URL)"
+  },
+  "fmtText": {
+    "message": "Juste l'URL"
+  },
+  "pasteCurrent": {
+    "message": "Fenêtre actuelle"
+  },
+  "saved": {
+    "message": "Enregistré"
+  },
+  "settingsTitle": {
+    "message": "Paramètres"
+  },
+  "pasteBehaviorLabel": {
+    "message": "Comportement de collage :"
   }
 }
-

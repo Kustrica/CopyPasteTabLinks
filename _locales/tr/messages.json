@@ -16,6 +16,35 @@
   },
   "openUrlPlural": {
     "message": "Panodan adresleri aç"
+  },
+  "optionsTitle": {
+    "message": "Ayarlar"
+  },
+  "pasteNew": {
+    "message": "Yeni pencere"
+  },
+  "copyFormatLabel": {
+    "message": "Kopyalama biçimi:"
+  },
+  "fmtHtml": {
+    "message": "HTML Bağlantısı"
+  },
+  "fmtMarkdown": {
+    "message": "Markdown [Başlık](Url)"
+  },
+  "fmtText": {
+    "message": "Sadece URL"
+  },
+  "pasteCurrent": {
+    "message": "Geçerli pencere"
+  },
+  "saved": {
+    "message": "Kaydedildi"
+  },
+  "settingsTitle": {
+    "message": "Ayarlar"
+  },
+  "pasteBehaviorLabel": {
+    "message": "Yapıştırma davranışı:"
   }
 }
-

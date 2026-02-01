@@ -16,6 +16,35 @@
   },
   "openUrlPlural": {
     "message": "Abrir endereços da área de transferência"
+  },
+  "optionsTitle": {
+    "message": "Configurações"
+  },
+  "pasteNew": {
+    "message": "Nova janela"
+  },
+  "copyFormatLabel": {
+    "message": "Formato de cópia:"
+  },
+  "fmtHtml": {
+    "message": "Link HTML"
+  },
+  "fmtMarkdown": {
+    "message": "Markdown [Título](Url)"
+  },
+  "fmtText": {
+    "message": "Apenas URL"
+  },
+  "pasteCurrent": {
+    "message": "Janela atual"
+  },
+  "saved": {
+    "message": "Salvo"
+  },
+  "settingsTitle": {
+    "message": "Configurações"
+  },
+  "pasteBehaviorLabel": {
+    "message": "Comportamento ao colar:"
   }
 }
-

@@ -16,6 +16,35 @@
   },
   "openUrlPlural": {
     "message": "開啟剪貼簿中的多個地址"
+  },
+  "optionsTitle": {
+    "message": "設定"
+  },
+  "pasteNew": {
+    "message": "新視窗"
+  },
+  "copyFormatLabel": {
+    "message": "複製格式："
+  },
+  "fmtHtml": {
+    "message": "HTML 連結"
+  },
+  "fmtMarkdown": {
+    "message": "Markdown [標題](連結)"
+  },
+  "fmtText": {
+    "message": "僅連結"
+  },
+  "pasteCurrent": {
+    "message": "目前視窗"
+  },
+  "saved": {
+    "message": "已儲存"
+  },
+  "settingsTitle": {
+    "message": "設定"
+  },
+  "pasteBehaviorLabel": {
+    "message": "貼上行為："
   }
 }
-

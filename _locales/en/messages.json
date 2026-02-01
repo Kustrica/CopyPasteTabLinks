@@ -16,6 +16,38 @@
   },
   "openUrlPlural": {
     "message": "Open Page Addresses from Clipboard"
+  },
+  "optionsTitle": {
+    "message": "Options"
+  },
+  "settingsTitle": {
+    "message": "Settings"
+  },
+  "copyFormatLabel": {
+    "message": "Copy Format:"
+  },
+  "fmtText": {
+    "message": "Just URL"
+  },
+  "fmtMarkdown": {
+    "message": "Markdown [Title](Url)"
+  },
+  "fmtHtml": {
+    "message": "HTML Link"
+  },
+  "pasteBehaviorLabel": {
+    "message": "Paste Behavior:"
+  },
+  "pasteCurrent": {
+    "message": "Current Window"
+  },
+  "pasteNew": {
+    "message": "New Window"
+  },
+  "showPasteMenuLabel": {
+    "message": "Show \"Paste & Open\" in context menu"
+  },
+  "saved": {
+    "message": "Saved"
   }
 }
-

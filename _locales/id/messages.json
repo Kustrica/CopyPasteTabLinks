@@ -16,6 +16,35 @@
   },
   "openUrlPlural": {
     "message": "Buka alamat dari papan klip"
+  },
+  "optionsTitle": {
+    "message": "Pengaturan"
+  },
+  "pasteNew": {
+    "message": "Jendela Baru"
+  },
+  "copyFormatLabel": {
+    "message": "Format Salin:"
+  },
+  "fmtHtml": {
+    "message": "Tautan HTML"
+  },
+  "fmtMarkdown": {
+    "message": "Markdown [Judul](Url)"
+  },
+  "fmtText": {
+    "message": "Hanya URL"
+  },
+  "pasteCurrent": {
+    "message": "Jendela Saat Ini"
+  },
+  "saved": {
+    "message": "Disimpan"
+  },
+  "settingsTitle": {
+    "message": "Pengaturan"
+  },
+  "pasteBehaviorLabel": {
+    "message": "Perilaku Tempel:"
   }
 }
-

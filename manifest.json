@@ -4,14 +4,23 @@
   "version": "1.1",
   "default_locale": "en",
   "description": "__MSG_extensionDescription__",
-  "author": "Kustrica (Telegram: @Kustrica)",
-  "homepage_url": "https://t.me/Kustrica",
+  "author": "Kustrica (Telegram: @kustric)",
+  "homepage_url": "https://t.me/kustric",
+  "action": {
+    "default_title": "Copy Tabs",
+    "default_icon": "icons/main-64.png"
+  },
   "permissions": [
     "menus",
     "tabs",
     "clipboardWrite",
-    "clipboardRead"
+    "clipboardRead",
+    "storage"
   ],
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
   "background": {
     "scripts": ["background.js"]
   },

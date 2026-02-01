@@ -16,6 +16,35 @@
   },
   "openUrlPlural": {
     "message": "클립보드에서 주소 열기"
+  },
+  "optionsTitle": {
+    "message": "설정"
+  },
+  "pasteNew": {
+    "message": "새 창"
+  },
+  "copyFormatLabel": {
+    "message": "복사 형식:"
+  },
+  "fmtHtml": {
+    "message": "HTML 링크"
+  },
+  "fmtMarkdown": {
+    "message": "마크다운 [제목](Url)"
+  },
+  "fmtText": {
+    "message": "URL만"
+  },
+  "pasteCurrent": {
+    "message": "현재 창"
+  },
+  "saved": {
+    "message": "저장됨"
+  },
+  "settingsTitle": {
+    "message": "설정"
+  },
+  "pasteBehaviorLabel": {
+    "message": "붙여넣기 동작:"
   }
 }
-

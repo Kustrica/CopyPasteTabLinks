@@ -16,6 +16,35 @@
   },
   "openUrlPlural": {
     "message": "打开剪贴板中的多个地址"
+  },
+  "optionsTitle": {
+    "message": "设置"
+  },
+  "pasteNew": {
+    "message": "新窗口"
+  },
+  "copyFormatLabel": {
+    "message": "复制格式："
+  },
+  "fmtHtml": {
+    "message": "HTML 链接"
+  },
+  "fmtMarkdown": {
+    "message": "Markdown [标题](链接)"
+  },
+  "fmtText": {
+    "message": "仅链接"
+  },
+  "pasteCurrent": {
+    "message": "当前窗口"
+  },
+  "saved": {
+    "message": "已保存"
+  },
+  "settingsTitle": {
+    "message": "设置"
+  },
+  "pasteBehaviorLabel": {
+    "message": "粘贴行为："
   }
 }
-

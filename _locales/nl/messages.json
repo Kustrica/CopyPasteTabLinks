@@ -16,6 +16,35 @@
   },
   "openUrlPlural": {
     "message": "Adressen openen vanaf klembord"
+  },
+  "optionsTitle": {
+    "message": "Instellingen"
+  },
+  "pasteNew": {
+    "message": "Nieuw venster"
+  },
+  "copyFormatLabel": {
+    "message": "Kopieerformaat:"
+  },
+  "fmtHtml": {
+    "message": "HTML-link"
+  },
+  "fmtMarkdown": {
+    "message": "Markdown [Titel](Url)"
+  },
+  "fmtText": {
+    "message": "Alleen URL"
+  },
+  "pasteCurrent": {
+    "message": "Huidig venster"
+  },
+  "saved": {
+    "message": "Opgeslagen"
+  },
+  "settingsTitle": {
+    "message": "Instellingen"
+  },
+  "pasteBehaviorLabel": {
+    "message": "Plakgedrag:"
   }
 }
-

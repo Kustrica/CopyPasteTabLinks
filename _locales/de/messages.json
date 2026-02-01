@@ -16,6 +16,35 @@
   },
   "openUrlPlural": {
     "message": "Adressen aus der Zwischenablage öffnen"
+  },
+  "optionsTitle": {
+    "message": "Einstellungen"
+  },
+  "pasteNew": {
+    "message": "Neues Fenster"
+  },
+  "copyFormatLabel": {
+    "message": "Kopierformat:"
+  },
+  "fmtHtml": {
+    "message": "HTML-Link"
+  },
+  "fmtMarkdown": {
+    "message": "Markdown [Titel](URL)"
+  },
+  "fmtText": {
+    "message": "Nur URL"
+  },
+  "pasteCurrent": {
+    "message": "Aktuelles Fenster"
+  },
+  "saved": {
+    "message": "Gespeichert"
+  },
+  "settingsTitle": {
+    "message": "Einstellungen"
+  },
+  "pasteBehaviorLabel": {
+    "message": "Einfügeverhalten:"
   }
 }
-

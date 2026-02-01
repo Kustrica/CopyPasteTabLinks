@@ -16,6 +16,35 @@
   },
   "openUrlPlural": {
     "message": "Apri indirizzi dagli appunti"
+  },
+  "optionsTitle": {
+    "message": "Impostazioni"
+  },
+  "pasteNew": {
+    "message": "Nuova finestra"
+  },
+  "copyFormatLabel": {
+    "message": "Formato copia:"
+  },
+  "fmtHtml": {
+    "message": "Link HTML"
+  },
+  "fmtMarkdown": {
+    "message": "Markdown [Titolo](Url)"
+  },
+  "fmtText": {
+    "message": "Solo URL"
+  },
+  "pasteCurrent": {
+    "message": "Finestra corrente"
+  },
+  "saved": {
+    "message": "Salvato"
+  },
+  "settingsTitle": {
+    "message": "Impostazioni"
+  },
+  "pasteBehaviorLabel": {
+    "message": "Comportamento incolla:"
   }
 }
-

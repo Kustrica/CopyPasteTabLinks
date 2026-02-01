@@ -16,6 +16,35 @@
   },
   "openUrlPlural": {
     "message": "クリップボードから複数のアドレスを開く"
+  },
+  "optionsTitle": {
+    "message": "設定"
+  },
+  "pasteNew": {
+    "message": "新しいウィンドウ"
+  },
+  "copyFormatLabel": {
+    "message": "コピー形式:"
+  },
+  "fmtHtml": {
+    "message": "HTMLリンク"
+  },
+  "fmtMarkdown": {
+    "message": "Markdown [タイトル](Url)"
+  },
+  "fmtText": {
+    "message": "URLのみ"
+  },
+  "pasteCurrent": {
+    "message": "現在のウィンドウ"
+  },
+  "saved": {
+    "message": "保存しました"
+  },
+  "settingsTitle": {
+    "message": "設定"
+  },
+  "pasteBehaviorLabel": {
+    "message": "貼り付け動作:"
   }
 }
-

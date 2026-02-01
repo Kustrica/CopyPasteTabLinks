@@ -1,9 +1,53 @@
 {
-  "extensionName": { "message": "CopyTabs - Copy/Paste Tab Links" },
-  "extensionDescription": { "message": "Капіраванне спасылак усіх адкрытых укладак і адкрыццё іх пазней." },
-  "copySuccess": { "message": "Спасылкі скапіяваны!" },
-  "copyError": { "message": "Памылка капіявання" },
-  "pasteError": { "message": "Няма сапраўдных спасылак у буферы абмену" },
-  "contextMenuCopy": { "message": "Капіяваць спасылкі ўкладак" },
-  "contextMenuPaste": { "message": "Уставіць спасылкі ўкладак" }
+  "extensionName": {
+    "message": "CopyTabs - Copy/Paste Tab Links"
+  },
+  "extensionDescription": {
+    "message": "Капіраванне спасылак усіх адкрытых укладак і адкрыццё іх пазней."
+  },
+  "copySuccess": {
+    "message": "Спасылкі скапіяваны!"
+  },
+  "copyError": {
+    "message": "Памылка капіявання"
+  },
+  "pasteError": {
+    "message": "Няма сапраўдных спасылак у буферы абмену"
+  },
+  "contextMenuCopy": {
+    "message": "Капіяваць спасылкі ўкладак"
+  },
+  "contextMenuPaste": {
+    "message": "Уставіць спасылкі ўкладак"
+  },
+  "optionsTitle": {
+    "message": "Налады"
+  },
+  "pasteNew": {
+    "message": "Новае акно"
+  },
+  "copyFormatLabel": {
+    "message": "Фармат капіявання:"
+  },
+  "fmtHtml": {
+    "message": "HTML спасылка"
+  },
+  "fmtMarkdown": {
+    "message": "Markdown [Загаловак](Url)"
+  },
+  "fmtText": {
+    "message": "Толькі спасылка"
+  },
+  "pasteCurrent": {
+    "message": "Бягучае акно"
+  },
+  "saved": {
+    "message": "Захавана"
+  },
+  "settingsTitle": {
+    "message": "Налады"
+  },
+  "pasteBehaviorLabel": {
+    "message": "Паводзіны ўстаўкі:"
+  }
 }

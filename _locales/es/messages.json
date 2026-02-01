@@ -16,6 +16,35 @@
   },
   "openUrlPlural": {
     "message": "Abrir direcciones desde el portapapeles"
+  },
+  "optionsTitle": {
+    "message": "Configuración"
+  },
+  "pasteNew": {
+    "message": "Nueva ventana"
+  },
+  "copyFormatLabel": {
+    "message": "Formato de copia:"
+  },
+  "fmtHtml": {
+    "message": "Enlace HTML"
+  },
+  "fmtMarkdown": {
+    "message": "Markdown [Título](Url)"
+  },
+  "fmtText": {
+    "message": "Solo URL"
+  },
+  "pasteCurrent": {
+    "message": "Ventana actual"
+  },
+  "saved": {
+    "message": "Guardado"
+  },
+  "settingsTitle": {
+    "message": "Configuración"
+  },
+  "pasteBehaviorLabel": {
+    "message": "Comportamiento al pegar:"
   }
 }
-

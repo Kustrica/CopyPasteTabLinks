@@ -16,6 +16,35 @@
   },
   "openUrlPlural": {
     "message": "Mở các địa chỉ từ bảng nhớ tạm"
+  },
+  "optionsTitle": {
+    "message": "Cài đặt"
+  },
+  "pasteNew": {
+    "message": "Cửa sổ mới"
+  },
+  "copyFormatLabel": {
+    "message": "Định dạng sao chép:"
+  },
+  "fmtHtml": {
+    "message": "Liên kết HTML"
+  },
+  "fmtMarkdown": {
+    "message": "Markdown [Tiêu đề](Url)"
+  },
+  "fmtText": {
+    "message": "Chỉ URL"
+  },
+  "pasteCurrent": {
+    "message": "Cửa sổ hiện tại"
+  },
+  "saved": {
+    "message": "Đã lưu"
+  },
+  "settingsTitle": {
+    "message": "Cài đặt"
+  },
+  "pasteBehaviorLabel": {
+    "message": "Hành vi dán:"
   }
 }
-

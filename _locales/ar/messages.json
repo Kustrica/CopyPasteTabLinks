@@ -16,6 +16,35 @@
   },
   "openUrlPlural": {
     "message": "فتح العناوين من الحافظة"
+  },
+  "optionsTitle": {
+    "message": "الإعدادات"
+  },
+  "pasteNew": {
+    "message": "نافذة جديدة"
+  },
+  "copyFormatLabel": {
+    "message": "تنسيق النسخ:"
+  },
+  "fmtHtml": {
+    "message": "رابط HTML"
+  },
+  "fmtMarkdown": {
+    "message": "Markdown [العنوان](الرابط)"
+  },
+  "fmtText": {
+    "message": "الرابط فقط"
+  },
+  "pasteCurrent": {
+    "message": "النافذة الحالية"
+  },
+  "saved": {
+    "message": "تم الحفظ"
+  },
+  "settingsTitle": {
+    "message": "الإعدادات"
+  },
+  "pasteBehaviorLabel": {
+    "message": "سلوك اللصق:"
   }
 }
-

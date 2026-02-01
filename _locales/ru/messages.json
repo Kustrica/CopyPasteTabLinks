@@ -16,6 +16,35 @@
   },
   "openUrlPlural": {
     "message": "Открыть адреса из буфера"
+  },
+  "optionsTitle": {
+    "message": "Настройки"
+  },
+  "pasteNew": {
+    "message": "Новое окно"
+  },
+  "copyFormatLabel": {
+    "message": "Формат копирования:"
+  },
+  "fmtHtml": {
+    "message": "HTML ссылка"
+  },
+  "fmtMarkdown": {
+    "message": "Markdown [Заголовок](Ссылка)"
+  },
+  "fmtText": {
+    "message": "Только ссылка"
+  },
+  "pasteCurrent": {
+    "message": "Текущее окно"
+  },
+  "saved": {
+    "message": "Сохранено"
+  },
+  "settingsTitle": {
+    "message": "Настройки"
+  },
+  "pasteBehaviorLabel": {
+    "message": "Поведение вставки:"
   }
 }
-
