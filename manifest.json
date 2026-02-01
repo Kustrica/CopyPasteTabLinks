@@ -7,7 +7,7 @@
   "author": "Kustrica (Telegram: @kustric)",
   "homepage_url": "https://t.me/kustric",
   "action": {
-    "default_title": "Copy Tabs",
+    "default_title": "Copy Paste Tab Links",
     "default_icon": "icons/main-64.png"
   },
   "permissions": [
