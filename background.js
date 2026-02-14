@@ -2,11 +2,6 @@ if (typeof browser === "undefined") {
     var browser = chrome;
 }
 
-/**
- * Author: Kustrica (Telegram: @Kustrica)
- * Version: 1.1.0
- */
-
 // Initialize menus
 async function initMenus() {
   await browser.menus.removeAll();

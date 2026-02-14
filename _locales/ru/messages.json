@@ -3,7 +3,7 @@
     "message": "Copy Paste Tab Links"
   },
   "extensionDescription": {
-    "message": "Копирует URL всех выделенных вкладок и открывает ссылки из буфера обмена."
+    "message": "Копирует ссылки из выбранных вкладок в текст/Markdown/HTML и открывает ссылки из буфера в текущем или новом окне."
   },
   "copyUrlSingular": {
     "message": "Копировать адрес страницы"

@@ -3,7 +3,7 @@
     "message": "Copy Paste Tab Links"
   },
   "extensionDescription": {
-    "message": "Copies URLs of all selected tabs and opens URLs from the clipboard."
+    "message": "Copy links from selected tabs in text/Markdown/HTML and open links from the clipboard in the current or new window."
   },
   "copyUrlSingular": {
     "message": "Copy Page Address"
