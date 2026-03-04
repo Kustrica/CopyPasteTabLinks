@@ -21,6 +21,9 @@ async function initMenus() {
 
 browser.runtime.onInstalled.addListener(initMenus);
 browser.runtime.onStartup.addListener(initMenus);
+browser.action.onClicked.addListener(() => {
+  browser.runtime.openOptionsPage().catch(() => {});
+});
 
 // Update menu titles dynamically based on selection/clipboard
 browser.menus.onShown.addListener(async (info, tab) => {
