@@ -24,7 +24,7 @@
     "message": "Nova janela"
   },
   "copyFormatLabel": {
-    "message": "Formato de cópia:"
+    "message": "Formato de cópia"
   },
   "fmtHtml": {
     "message": "Link HTML"
@@ -45,6 +45,93 @@
     "message": "Configurações"
   },
   "pasteBehaviorLabel": {
-    "message": "Comportamento ao colar:"
+    "message": "Abrir links em"
+  },
+  "languageAuto": {
+    "message": "Automático (idioma do navegador)"
+  },
+  "languageUpdated": {
+    "message": "Idioma alterado. Recarregando…"
+  },
+  "sectionCopyTitle": {
+    "message": "Copiar links"
+  },
+  "sectionPasteTitle": {
+    "message": "Abrir links da área de transferência"
+  },
+  "sectionMenuTitle": {
+    "message": "Menu da aba"
+  },
+  "fmtTitleUrl": {
+    "message": "Título – URL"
+  },
+  "copySeparatorLabel": {
+    "message": "Separador entre links"
+  },
+  "sepNewline": {
+    "message": "Nova linha"
+  },
+  "sepBlankLine": {
+    "message": "Linha em branco"
+  },
+  "sepSpace": {
+    "message": "Espaço"
+  },
+  "sepComma": {
+    "message": "Vírgula"
+  },
+  "copyPreviewLabel": {
+    "message": "Exemplo"
+  },
+  "copyPreviewHint": {
+    "message": "Assim ficarão duas abas copiadas na área de transferência."
+  },
+  "pasteActivateLabel": {
+    "message": "Mudar para a primeira aba aberta"
+  },
+  "pasteActivateDesc": {
+    "message": "Se desativado, os links abrem em abas em segundo plano e você continua na página atual."
+  },
+  "pasteSkipDuplicatesLabel": {
+    "message": "Ignorar links repetidos"
+  },
+  "pasteSkipDuplicatesDesc": {
+    "message": "Se o mesmo endereço aparecer várias vezes na área de transferência, ele abre só uma vez."
+  },
+  "pasteSkipOpenLabel": {
+    "message": "Ignorar links já abertos"
+  },
+  "pasteSkipOpenDesc": {
+    "message": "Endereços que já estão abertos em uma aba não são abertos de novo."
+  },
+  "confirmThresholdLabel": {
+    "message": "Perguntar antes de abrir muitos links"
+  },
+  "confirmThresholdDesc": {
+    "message": "Pede confirmação quando a área de transferência tem mais links que este número. 0 – nunca perguntar."
+  },
+  "showPasteMenuLabel": {
+    "message": "Mostrar “Abrir da área de transferência” no menu da aba"
+  },
+  "showPasteMenuDesc": {
+    "message": "Desative se você usa a extensão apenas para copiar links."
+  },
+  "confirmTitle": {
+    "message": "Abrir links da área de transferência?"
+  },
+  "confirmMessage": {
+    "message": "$COUNT$ links serão abertos em novas abas.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "confirmOpen": {
+    "message": "Abrir"
+  },
+  "confirmCancel": {
+    "message": "Cancelar"
   }
 }

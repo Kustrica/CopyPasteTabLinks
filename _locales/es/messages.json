@@ -24,7 +24,7 @@
     "message": "Nueva ventana"
   },
   "copyFormatLabel": {
-    "message": "Formato de copia:"
+    "message": "Formato de copia"
   },
   "fmtHtml": {
     "message": "Enlace HTML"
@@ -45,6 +45,93 @@
     "message": "Configuración"
   },
   "pasteBehaviorLabel": {
-    "message": "Comportamiento al pegar:"
+    "message": "Abrir enlaces en"
+  },
+  "languageAuto": {
+    "message": "Automático (idioma del navegador)"
+  },
+  "languageUpdated": {
+    "message": "Idioma cambiado. Recargando…"
+  },
+  "sectionCopyTitle": {
+    "message": "Copiar enlaces"
+  },
+  "sectionPasteTitle": {
+    "message": "Abrir enlaces del portapapeles"
+  },
+  "sectionMenuTitle": {
+    "message": "Menú de pestaña"
+  },
+  "fmtTitleUrl": {
+    "message": "Título – URL"
+  },
+  "copySeparatorLabel": {
+    "message": "Separador entre enlaces"
+  },
+  "sepNewline": {
+    "message": "Nueva línea"
+  },
+  "sepBlankLine": {
+    "message": "Línea en blanco"
+  },
+  "sepSpace": {
+    "message": "Espacio"
+  },
+  "sepComma": {
+    "message": "Coma"
+  },
+  "copyPreviewLabel": {
+    "message": "Ejemplo"
+  },
+  "copyPreviewHint": {
+    "message": "Así se verán dos pestañas copiadas en el portapapeles."
+  },
+  "pasteActivateLabel": {
+    "message": "Cambiar a la primera pestaña abierta"
+  },
+  "pasteActivateDesc": {
+    "message": "Si está desactivado, los enlaces se abren en pestañas en segundo plano y permaneces en la página actual."
+  },
+  "pasteSkipDuplicatesLabel": {
+    "message": "Omitir enlaces repetidos"
+  },
+  "pasteSkipDuplicatesDesc": {
+    "message": "Si la misma dirección aparece varias veces en el portapapeles, solo se abre una vez."
+  },
+  "pasteSkipOpenLabel": {
+    "message": "Omitir enlaces ya abiertos"
+  },
+  "pasteSkipOpenDesc": {
+    "message": "Las direcciones que ya están abiertas en una pestaña no se vuelven a abrir."
+  },
+  "confirmThresholdLabel": {
+    "message": "Preguntar antes de abrir muchos enlaces"
+  },
+  "confirmThresholdDesc": {
+    "message": "Pide confirmación cuando el portapapeles tiene más enlaces que este número. 0: no preguntar nunca."
+  },
+  "showPasteMenuLabel": {
+    "message": "Mostrar «Abrir desde el portapapeles» en el menú de pestaña"
+  },
+  "showPasteMenuDesc": {
+    "message": "Desactívalo si solo usas la extensión para copiar enlaces."
+  },
+  "confirmTitle": {
+    "message": "¿Abrir los enlaces del portapapeles?"
+  },
+  "confirmMessage": {
+    "message": "Se abrirán $COUNT$ enlaces en pestañas nuevas.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "confirmOpen": {
+    "message": "Abrir"
+  },
+  "confirmCancel": {
+    "message": "Cancelar"
   }
 }

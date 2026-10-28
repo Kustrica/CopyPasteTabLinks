@@ -24,7 +24,7 @@
     "message": "Nouvelle fenêtre"
   },
   "copyFormatLabel": {
-    "message": "Format de copie :"
+    "message": "Format de copie"
   },
   "fmtHtml": {
     "message": "Lien HTML"
@@ -45,6 +45,93 @@
     "message": "Paramètres"
   },
   "pasteBehaviorLabel": {
-    "message": "Comportement de collage :"
+    "message": "Ouvrir les liens dans"
+  },
+  "languageAuto": {
+    "message": "Auto (langue du navigateur)"
+  },
+  "languageUpdated": {
+    "message": "Langue modifiée. Rechargement…"
+  },
+  "sectionCopyTitle": {
+    "message": "Copie des liens"
+  },
+  "sectionPasteTitle": {
+    "message": "Ouverture des liens du presse-papiers"
+  },
+  "sectionMenuTitle": {
+    "message": "Menu de l’onglet"
+  },
+  "fmtTitleUrl": {
+    "message": "Titre – URL"
+  },
+  "copySeparatorLabel": {
+    "message": "Séparateur entre les liens"
+  },
+  "sepNewline": {
+    "message": "Nouvelle ligne"
+  },
+  "sepBlankLine": {
+    "message": "Ligne vide"
+  },
+  "sepSpace": {
+    "message": "Espace"
+  },
+  "sepComma": {
+    "message": "Virgule"
+  },
+  "copyPreviewLabel": {
+    "message": "Exemple"
+  },
+  "copyPreviewHint": {
+    "message": "Voici à quoi ressembleront deux onglets copiés dans le presse-papiers."
+  },
+  "pasteActivateLabel": {
+    "message": "Passer au premier onglet ouvert"
+  },
+  "pasteActivateDesc": {
+    "message": "Si désactivé, les liens s’ouvrent dans des onglets en arrière-plan et vous restez sur la page actuelle."
+  },
+  "pasteSkipDuplicatesLabel": {
+    "message": "Ignorer les liens en double"
+  },
+  "pasteSkipDuplicatesDesc": {
+    "message": "Si la même adresse apparaît plusieurs fois dans le presse-papiers, elle ne s’ouvre qu’une fois."
+  },
+  "pasteSkipOpenLabel": {
+    "message": "Ignorer les liens déjà ouverts"
+  },
+  "pasteSkipOpenDesc": {
+    "message": "Les adresses déjà ouvertes dans un onglet ne sont pas rouvertes."
+  },
+  "confirmThresholdLabel": {
+    "message": "Demander avant d’ouvrir beaucoup de liens"
+  },
+  "confirmThresholdDesc": {
+    "message": "Demande une confirmation quand le presse-papiers contient plus de liens que ce nombre. 0 – ne jamais demander."
+  },
+  "showPasteMenuLabel": {
+    "message": "Afficher « Ouvrir depuis le presse-papiers » dans le menu de l’onglet"
+  },
+  "showPasteMenuDesc": {
+    "message": "Désactivez si vous n’utilisez l’extension que pour copier des liens."
+  },
+  "confirmTitle": {
+    "message": "Ouvrir les liens du presse-papiers ?"
+  },
+  "confirmMessage": {
+    "message": "$COUNT$ liens vont s’ouvrir dans de nouveaux onglets.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "confirmOpen": {
+    "message": "Ouvrir"
+  },
+  "confirmCancel": {
+    "message": "Annuler"
   }
 }

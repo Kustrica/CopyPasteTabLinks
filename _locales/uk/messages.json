@@ -24,7 +24,7 @@
     "message": "Нове вікно"
   },
   "copyFormatLabel": {
-    "message": "Формат копіювання:"
+    "message": "Формат копіювання"
   },
   "fmtHtml": {
     "message": "HTML посилання"
@@ -45,6 +45,93 @@
     "message": "Налаштування"
   },
   "pasteBehaviorLabel": {
-    "message": "Поведінка вставки:"
+    "message": "Де відкривати посилання"
+  },
+  "languageAuto": {
+    "message": "Авто (мова браузера)"
+  },
+  "languageUpdated": {
+    "message": "Мову змінено. Перезавантаження…"
+  },
+  "sectionCopyTitle": {
+    "message": "Копіювання посилань"
+  },
+  "sectionPasteTitle": {
+    "message": "Відкриття посилань із буфера"
+  },
+  "sectionMenuTitle": {
+    "message": "Меню вкладки"
+  },
+  "fmtTitleUrl": {
+    "message": "Заголовок – посилання"
+  },
+  "copySeparatorLabel": {
+    "message": "Роздільник між посиланнями"
+  },
+  "sepNewline": {
+    "message": "Новий рядок"
+  },
+  "sepBlankLine": {
+    "message": "Порожній рядок"
+  },
+  "sepSpace": {
+    "message": "Пробіл"
+  },
+  "sepComma": {
+    "message": "Кома"
+  },
+  "copyPreviewLabel": {
+    "message": "Приклад"
+  },
+  "copyPreviewHint": {
+    "message": "Так дві скопійовані вкладки виглядатимуть у буфері обміну."
+  },
+  "pasteActivateLabel": {
+    "message": "Перемикатися на першу відкриту вкладку"
+  },
+  "pasteActivateDesc": {
+    "message": "Якщо вимкнено, посилання відкриваються у фонових вкладках, а ви залишаєтеся на поточній сторінці."
+  },
+  "pasteSkipDuplicatesLabel": {
+    "message": "Пропускати повторювані посилання"
+  },
+  "pasteSkipDuplicatesDesc": {
+    "message": "Якщо в буфері та сама адреса трапляється кілька разів, вона відкриється лише один раз."
+  },
+  "pasteSkipOpenLabel": {
+    "message": "Пропускати вже відкриті посилання"
+  },
+  "pasteSkipOpenDesc": {
+    "message": "Адреси, які вже відкриті у вкладках, повторно не відкриваються."
+  },
+  "confirmThresholdLabel": {
+    "message": "Питати перед відкриттям багатьох посилань"
+  },
+  "confirmThresholdDesc": {
+    "message": "Запитує підтвердження, якщо в буфері більше посилань, ніж це число. 0 — не питати."
+  },
+  "showPasteMenuLabel": {
+    "message": "Показувати пункт «Відкрити з буфера» в меню вкладки"
+  },
+  "showPasteMenuDesc": {
+    "message": "Вимкніть, якщо використовуєте розширення лише для копіювання посилань."
+  },
+  "confirmTitle": {
+    "message": "Відкрити посилання з буфера?"
+  },
+  "confirmMessage": {
+    "message": "Кількість посилань, що відкриються в нових вкладках: $COUNT$.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "confirmOpen": {
+    "message": "Відкрити"
+  },
+  "confirmCancel": {
+    "message": "Скасувати"
   }
 }

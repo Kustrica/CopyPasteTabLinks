@@ -24,7 +24,7 @@
     "message": "Nowe okno"
   },
   "copyFormatLabel": {
-    "message": "Format kopiowania:"
+    "message": "Format kopiowania"
   },
   "fmtHtml": {
     "message": "Link HTML"
@@ -45,6 +45,93 @@
     "message": "Ustawienia"
   },
   "pasteBehaviorLabel": {
-    "message": "Zachowanie wklejania:"
+    "message": "Otwieraj linki w"
+  },
+  "languageAuto": {
+    "message": "Automatycznie (język przeglądarki)"
+  },
+  "languageUpdated": {
+    "message": "Zmieniono język. Ponowne ładowanie…"
+  },
+  "sectionCopyTitle": {
+    "message": "Kopiowanie linków"
+  },
+  "sectionPasteTitle": {
+    "message": "Otwieranie linków ze schowka"
+  },
+  "sectionMenuTitle": {
+    "message": "Menu karty"
+  },
+  "fmtTitleUrl": {
+    "message": "Tytuł – URL"
+  },
+  "copySeparatorLabel": {
+    "message": "Separator między linkami"
+  },
+  "sepNewline": {
+    "message": "Nowy wiersz"
+  },
+  "sepBlankLine": {
+    "message": "Pusty wiersz"
+  },
+  "sepSpace": {
+    "message": "Spacja"
+  },
+  "sepComma": {
+    "message": "Przecinek"
+  },
+  "copyPreviewLabel": {
+    "message": "Przykład"
+  },
+  "copyPreviewHint": {
+    "message": "Tak będą wyglądać dwie skopiowane karty w schowku."
+  },
+  "pasteActivateLabel": {
+    "message": "Przełącz na pierwszą otwartą kartę"
+  },
+  "pasteActivateDesc": {
+    "message": "Gdy wyłączone, linki otwierają się w kartach w tle, a Ty zostajesz na bieżącej stronie."
+  },
+  "pasteSkipDuplicatesLabel": {
+    "message": "Pomijaj powtarzające się linki"
+  },
+  "pasteSkipDuplicatesDesc": {
+    "message": "Jeśli ten sam adres występuje w schowku kilka razy, zostanie otwarty tylko raz."
+  },
+  "pasteSkipOpenLabel": {
+    "message": "Pomijaj już otwarte linki"
+  },
+  "pasteSkipOpenDesc": {
+    "message": "Adresy, które są już otwarte w karcie, nie są otwierane ponownie."
+  },
+  "confirmThresholdLabel": {
+    "message": "Pytaj przed otwarciem wielu linków"
+  },
+  "confirmThresholdDesc": {
+    "message": "Prosi o potwierdzenie, gdy schowek zawiera więcej linków niż ta liczba. 0 – nigdy nie pytaj."
+  },
+  "showPasteMenuLabel": {
+    "message": "Pokazuj „Otwórz ze schowka” w menu karty"
+  },
+  "showPasteMenuDesc": {
+    "message": "Wyłącz, jeśli używasz rozszerzenia tylko do kopiowania linków."
+  },
+  "confirmTitle": {
+    "message": "Otworzyć linki ze schowka?"
+  },
+  "confirmMessage": {
+    "message": "Liczba linków, które otworzą się w nowych kartach: $COUNT$.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "confirmOpen": {
+    "message": "Otwórz"
+  },
+  "confirmCancel": {
+    "message": "Anuluj"
   }
 }

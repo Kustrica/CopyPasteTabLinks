@@ -24,7 +24,7 @@
     "message": "新しいウィンドウ"
   },
   "copyFormatLabel": {
-    "message": "コピー形式:"
+    "message": "コピー形式"
   },
   "fmtHtml": {
     "message": "HTMLリンク"
@@ -45,6 +45,93 @@
     "message": "設定"
   },
   "pasteBehaviorLabel": {
-    "message": "貼り付け動作:"
+    "message": "リンクを開く場所"
+  },
+  "languageAuto": {
+    "message": "自動（ブラウザーの言語）"
+  },
+  "languageUpdated": {
+    "message": "言語を変更しました。再読み込みしています…"
+  },
+  "sectionCopyTitle": {
+    "message": "リンクのコピー"
+  },
+  "sectionPasteTitle": {
+    "message": "クリップボードのリンクを開く"
+  },
+  "sectionMenuTitle": {
+    "message": "タブメニュー"
+  },
+  "fmtTitleUrl": {
+    "message": "タイトル – URL"
+  },
+  "copySeparatorLabel": {
+    "message": "リンクの区切り"
+  },
+  "sepNewline": {
+    "message": "改行"
+  },
+  "sepBlankLine": {
+    "message": "空行"
+  },
+  "sepSpace": {
+    "message": "スペース"
+  },
+  "sepComma": {
+    "message": "カンマ"
+  },
+  "copyPreviewLabel": {
+    "message": "例"
+  },
+  "copyPreviewHint": {
+    "message": "コピーした 2 つのタブはクリップボードでこのようになります。"
+  },
+  "pasteActivateLabel": {
+    "message": "最初に開いたタブに切り替える"
+  },
+  "pasteActivateDesc": {
+    "message": "オフの場合、リンクはバックグラウンドのタブで開き、現在のページに留まります。"
+  },
+  "pasteSkipDuplicatesLabel": {
+    "message": "重複したリンクをスキップ"
+  },
+  "pasteSkipDuplicatesDesc": {
+    "message": "クリップボードに同じアドレスが複数回含まれていても、開くのは 1 回だけです。"
+  },
+  "pasteSkipOpenLabel": {
+    "message": "すでに開いているリンクをスキップ"
+  },
+  "pasteSkipOpenDesc": {
+    "message": "すでにタブで開いているアドレスは再度開きません。"
+  },
+  "confirmThresholdLabel": {
+    "message": "多数のリンクを開く前に確認する"
+  },
+  "confirmThresholdDesc": {
+    "message": "クリップボードのリンクがこの数より多いときに確認します。0 で確認しません。"
+  },
+  "showPasteMenuLabel": {
+    "message": "タブメニューに「クリップボードから開く」を表示"
+  },
+  "showPasteMenuDesc": {
+    "message": "リンクのコピーだけに使う場合はオフにしてください。"
+  },
+  "confirmTitle": {
+    "message": "クリップボードのリンクを開きますか？"
+  },
+  "confirmMessage": {
+    "message": "$COUNT$ 件のリンクを新しいタブで開きます。",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "confirmOpen": {
+    "message": "開く"
+  },
+  "confirmCancel": {
+    "message": "キャンセル"
   }
 }

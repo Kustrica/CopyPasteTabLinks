@@ -1,43 +1,108 @@
-function localizePage() {
-    const elements = document.querySelectorAll('[data-i18n]');
-    elements.forEach(el => {
-        const key = el.getAttribute('data-i18n');
-        const msg = chrome.i18n.getMessage(key);
-        if (msg) el.textContent = msg;
-    });
+if (typeof browser === "undefined") {
+    var browser = chrome;
 }
 
-function showStatus(msg, type = 'success') {
-    const el = document.getElementById('status-msg');
+const { DEFAULT_SETTINGS, formatTabs } = window.CopyPasteFormat;
+
+const SAMPLE_TABS = [
+    { title: "Firefox – Mozilla", url: "https://www.mozilla.org/firefox/" },
+    { title: "MDN Web Docs", url: "https://developer.mozilla.org/" }
+];
+
+function resolvedLanguage(uiLang) {
+    const lang = uiLang === "auto" ? (browser.i18n?.getUILanguage?.() || "en") : uiLang;
+    return lang.replace("_", "-");
+}
+
+function localizePage(uiLang) {
+    document.querySelectorAll("[data-i18n]").forEach(el => {
+        const msg = getMessage(el.getAttribute("data-i18n"));
+        if (msg) el.textContent = msg;
+    });
+    const titleMsg = getMessage("optionsTitle");
+    if (titleMsg) document.title = titleMsg;
+    const lang = resolvedLanguage(uiLang);
+    document.documentElement.lang = lang;
+    document.documentElement.dir = lang.toLowerCase().startsWith("ar") ? "rtl" : "ltr";
+}
+
+function showStatus(msg) {
+    const el = document.getElementById("status-msg");
     el.textContent = msg;
-    el.className = type;
+    el.className = "success";
     el.style.opacity = 1;
-    setTimeout(() => {
+    clearTimeout(showStatus.timer);
+    showStatus.timer = setTimeout(() => {
         el.style.opacity = 0;
     }, 2000);
 }
 
-document.addEventListener('DOMContentLoaded', async () => {
-    localizePage();
+function renderPreview() {
+    const preview = document.getElementById("copy-preview");
+    preview.textContent = formatTabs(SAMPLE_TABS, {
+        copyFormat: document.getElementById("copy-format").value,
+        copySeparator: document.getElementById("copy-separator").value
+    });
+}
 
-    const formatSelect = document.getElementById('copy-format');
-    const pasteSelect = document.getElementById('paste-behavior');
-    
-    // Load settings
-    const data = await chrome.storage.local.get({
-        copyFormat: 'text',
-        pasteBehavior: 'current'
+async function save(values) {
+    await browser.storage.local.set(values);
+    showStatus(getMessage("saved") || "Saved");
+}
+
+document.addEventListener("DOMContentLoaded", async () => {
+    const { ui_language } = await browser.storage.local.get({ ui_language: "auto" });
+    const langSelect = document.getElementById("ui-language-select");
+    langSelect.value = ui_language || "auto";
+
+    await window.initI18n();
+    localizePage(langSelect.value);
+
+    langSelect.addEventListener("change", async () => {
+        await browser.storage.local.set({ ui_language: langSelect.value });
+        await window.initI18n();
+        showStatus(getMessage("languageUpdated") || "Language updated. Reloading...");
+        setTimeout(() => location.reload(), 800);
     });
 
-    formatSelect.value = data.copyFormat;
-    pasteSelect.value = data.pasteBehavior;
+    const settings = await browser.storage.local.get(DEFAULT_SETTINGS);
 
-    // Save functions
-    const save = async (obj) => {
-        await chrome.storage.local.set(obj);
-        showStatus(chrome.i18n.getMessage("saved") || "Saved");
+    const selects = {
+        "copy-format": "copyFormat",
+        "copy-separator": "copySeparator",
+        "paste-behavior": "pasteBehavior"
     };
+    for (const [id, key] of Object.entries(selects)) {
+        const el = document.getElementById(id);
+        el.value = settings[key];
+        if (!el.value) el.value = DEFAULT_SETTINGS[key];
+        el.addEventListener("change", () => {
+            if (id.startsWith("copy-")) renderPreview();
+            save({ [key]: el.value });
+        });
+    }
 
-    formatSelect.addEventListener('change', () => save({ copyFormat: formatSelect.value }));
-    pasteSelect.addEventListener('change', () => save({ pasteBehavior: pasteSelect.value }));
+    const checkboxes = {
+        "paste-activate": "pasteActivate",
+        "paste-skip-duplicates": "pasteSkipDuplicates",
+        "paste-skip-open": "pasteSkipOpen",
+        "show-paste-menu": "showPasteMenu"
+    };
+    for (const [id, key] of Object.entries(checkboxes)) {
+        const el = document.getElementById(id);
+        el.checked = Boolean(settings[key]);
+        el.addEventListener("change", () => save({ [key]: el.checked }));
+    }
+
+    const threshold = document.getElementById("confirm-threshold");
+    threshold.value = String(settings.confirmThreshold);
+    threshold.addEventListener("change", () => {
+        let value = parseInt(threshold.value, 10);
+        if (!Number.isFinite(value) || value < 0) value = 0;
+        if (value > 999) value = 999;
+        threshold.value = String(value);
+        save({ confirmThreshold: value });
+    });
+
+    renderPreview();
 });

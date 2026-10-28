@@ -24,7 +24,7 @@
     "message": "새 창"
   },
   "copyFormatLabel": {
-    "message": "복사 형식:"
+    "message": "복사 형식"
   },
   "fmtHtml": {
     "message": "HTML 링크"
@@ -45,6 +45,93 @@
     "message": "설정"
   },
   "pasteBehaviorLabel": {
-    "message": "붙여넣기 동작:"
+    "message": "링크를 열 위치"
+  },
+  "languageAuto": {
+    "message": "자동(브라우저 언어)"
+  },
+  "languageUpdated": {
+    "message": "언어가 변경되었습니다. 다시 불러오는 중…"
+  },
+  "sectionCopyTitle": {
+    "message": "링크 복사"
+  },
+  "sectionPasteTitle": {
+    "message": "클립보드의 링크 열기"
+  },
+  "sectionMenuTitle": {
+    "message": "탭 메뉴"
+  },
+  "fmtTitleUrl": {
+    "message": "제목 – URL"
+  },
+  "copySeparatorLabel": {
+    "message": "링크 구분자"
+  },
+  "sepNewline": {
+    "message": "줄 바꿈"
+  },
+  "sepBlankLine": {
+    "message": "빈 줄"
+  },
+  "sepSpace": {
+    "message": "공백"
+  },
+  "sepComma": {
+    "message": "쉼표"
+  },
+  "copyPreviewLabel": {
+    "message": "예시"
+  },
+  "copyPreviewHint": {
+    "message": "복사한 탭 두 개가 클립보드에서 이렇게 보입니다."
+  },
+  "pasteActivateLabel": {
+    "message": "처음 연 탭으로 전환"
+  },
+  "pasteActivateDesc": {
+    "message": "끄면 링크가 백그라운드 탭에서 열리고 현재 페이지에 머무릅니다."
+  },
+  "pasteSkipDuplicatesLabel": {
+    "message": "반복되는 링크 건너뛰기"
+  },
+  "pasteSkipDuplicatesDesc": {
+    "message": "클립보드에 같은 주소가 여러 번 있어도 한 번만 엽니다."
+  },
+  "pasteSkipOpenLabel": {
+    "message": "이미 열린 링크 건너뛰기"
+  },
+  "pasteSkipOpenDesc": {
+    "message": "이미 탭에서 열려 있는 주소는 다시 열지 않습니다."
+  },
+  "confirmThresholdLabel": {
+    "message": "많은 링크를 열기 전에 확인"
+  },
+  "confirmThresholdDesc": {
+    "message": "클립보드의 링크가 이 숫자보다 많으면 확인을 요청합니다. 0이면 묻지 않습니다."
+  },
+  "showPasteMenuLabel": {
+    "message": "탭 메뉴에 ‘클립보드에서 열기’ 표시"
+  },
+  "showPasteMenuDesc": {
+    "message": "링크 복사에만 확장 기능을 사용한다면 끄세요."
+  },
+  "confirmTitle": {
+    "message": "클립보드의 링크를 열까요?"
+  },
+  "confirmMessage": {
+    "message": "링크 $COUNT$개가 새 탭에서 열립니다.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "confirmOpen": {
+    "message": "열기"
+  },
+  "confirmCancel": {
+    "message": "취소"
   }
 }

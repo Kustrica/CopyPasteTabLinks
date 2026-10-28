@@ -24,7 +24,7 @@
     "message": "Cửa sổ mới"
   },
   "copyFormatLabel": {
-    "message": "Định dạng sao chép:"
+    "message": "Định dạng sao chép"
   },
   "fmtHtml": {
     "message": "Liên kết HTML"
@@ -45,6 +45,93 @@
     "message": "Cài đặt"
   },
   "pasteBehaviorLabel": {
-    "message": "Hành vi dán:"
+    "message": "Mở liên kết trong"
+  },
+  "languageAuto": {
+    "message": "Tự động (ngôn ngữ trình duyệt)"
+  },
+  "languageUpdated": {
+    "message": "Đã đổi ngôn ngữ. Đang tải lại…"
+  },
+  "sectionCopyTitle": {
+    "message": "Sao chép liên kết"
+  },
+  "sectionPasteTitle": {
+    "message": "Mở liên kết từ bộ nhớ tạm"
+  },
+  "sectionMenuTitle": {
+    "message": "Menu thẻ"
+  },
+  "fmtTitleUrl": {
+    "message": "Tiêu đề – URL"
+  },
+  "copySeparatorLabel": {
+    "message": "Dấu phân cách giữa các liên kết"
+  },
+  "sepNewline": {
+    "message": "Dòng mới"
+  },
+  "sepBlankLine": {
+    "message": "Dòng trống"
+  },
+  "sepSpace": {
+    "message": "Dấu cách"
+  },
+  "sepComma": {
+    "message": "Dấu phẩy"
+  },
+  "copyPreviewLabel": {
+    "message": "Ví dụ"
+  },
+  "copyPreviewHint": {
+    "message": "Hai thẻ được sao chép sẽ trông như thế này trong bộ nhớ tạm."
+  },
+  "pasteActivateLabel": {
+    "message": "Chuyển sang thẻ đầu tiên được mở"
+  },
+  "pasteActivateDesc": {
+    "message": "Khi tắt, liên kết mở trong các thẻ nền và bạn vẫn ở trang hiện tại."
+  },
+  "pasteSkipDuplicatesLabel": {
+    "message": "Bỏ qua liên kết lặp lại"
+  },
+  "pasteSkipDuplicatesDesc": {
+    "message": "Nếu cùng một địa chỉ xuất hiện nhiều lần trong bộ nhớ tạm, nó chỉ được mở một lần."
+  },
+  "pasteSkipOpenLabel": {
+    "message": "Bỏ qua liên kết đã mở"
+  },
+  "pasteSkipOpenDesc": {
+    "message": "Các địa chỉ đã mở trong một thẻ sẽ không được mở lại."
+  },
+  "confirmThresholdLabel": {
+    "message": "Hỏi trước khi mở nhiều liên kết"
+  },
+  "confirmThresholdDesc": {
+    "message": "Yêu cầu xác nhận khi bộ nhớ tạm có nhiều liên kết hơn số này. 0 – không bao giờ hỏi."
+  },
+  "showPasteMenuLabel": {
+    "message": "Hiện mục “Mở từ bộ nhớ tạm” trong menu thẻ"
+  },
+  "showPasteMenuDesc": {
+    "message": "Tắt nếu bạn chỉ dùng tiện ích để sao chép liên kết."
+  },
+  "confirmTitle": {
+    "message": "Mở các liên kết từ bộ nhớ tạm?"
+  },
+  "confirmMessage": {
+    "message": "$COUNT$ liên kết sẽ được mở trong thẻ mới.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "confirmOpen": {
+    "message": "Mở"
+  },
+  "confirmCancel": {
+    "message": "Hủy"
   }
 }

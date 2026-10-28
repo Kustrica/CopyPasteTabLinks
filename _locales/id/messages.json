@@ -24,7 +24,7 @@
     "message": "Jendela Baru"
   },
   "copyFormatLabel": {
-    "message": "Format Salin:"
+    "message": "Format salin"
   },
   "fmtHtml": {
     "message": "Tautan HTML"
@@ -45,6 +45,93 @@
     "message": "Pengaturan"
   },
   "pasteBehaviorLabel": {
-    "message": "Perilaku Tempel:"
+    "message": "Buka tautan di"
+  },
+  "languageAuto": {
+    "message": "Otomatis (bahasa browser)"
+  },
+  "languageUpdated": {
+    "message": "Bahasa diubah. Memuat ulang…"
+  },
+  "sectionCopyTitle": {
+    "message": "Menyalin tautan"
+  },
+  "sectionPasteTitle": {
+    "message": "Membuka tautan dari papan klip"
+  },
+  "sectionMenuTitle": {
+    "message": "Menu tab"
+  },
+  "fmtTitleUrl": {
+    "message": "Judul – URL"
+  },
+  "copySeparatorLabel": {
+    "message": "Pemisah antar tautan"
+  },
+  "sepNewline": {
+    "message": "Baris baru"
+  },
+  "sepBlankLine": {
+    "message": "Baris kosong"
+  },
+  "sepSpace": {
+    "message": "Spasi"
+  },
+  "sepComma": {
+    "message": "Koma"
+  },
+  "copyPreviewLabel": {
+    "message": "Contoh"
+  },
+  "copyPreviewHint": {
+    "message": "Seperti inilah dua tab yang disalin akan terlihat di papan klip."
+  },
+  "pasteActivateLabel": {
+    "message": "Beralih ke tab pertama yang dibuka"
+  },
+  "pasteActivateDesc": {
+    "message": "Jika nonaktif, tautan dibuka di tab latar belakang dan Anda tetap di halaman saat ini."
+  },
+  "pasteSkipDuplicatesLabel": {
+    "message": "Lewati tautan berulang"
+  },
+  "pasteSkipDuplicatesDesc": {
+    "message": "Jika alamat yang sama muncul beberapa kali di papan klip, alamat itu hanya dibuka sekali."
+  },
+  "pasteSkipOpenLabel": {
+    "message": "Lewati tautan yang sudah terbuka"
+  },
+  "pasteSkipOpenDesc": {
+    "message": "Alamat yang sudah terbuka di sebuah tab tidak dibuka lagi."
+  },
+  "confirmThresholdLabel": {
+    "message": "Tanya sebelum membuka banyak tautan"
+  },
+  "confirmThresholdDesc": {
+    "message": "Meminta konfirmasi jika papan klip berisi lebih banyak tautan daripada angka ini. 0 – jangan pernah tanya."
+  },
+  "showPasteMenuLabel": {
+    "message": "Tampilkan “Buka dari papan klip” di menu tab"
+  },
+  "showPasteMenuDesc": {
+    "message": "Matikan jika Anda hanya memakai ekstensi untuk menyalin tautan."
+  },
+  "confirmTitle": {
+    "message": "Buka tautan dari papan klip?"
+  },
+  "confirmMessage": {
+    "message": "$COUNT$ tautan akan dibuka di tab baru.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "confirmOpen": {
+    "message": "Buka"
+  },
+  "confirmCancel": {
+    "message": "Batal"
   }
 }

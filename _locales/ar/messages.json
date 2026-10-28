@@ -24,7 +24,7 @@
     "message": "نافذة جديدة"
   },
   "copyFormatLabel": {
-    "message": "تنسيق النسخ:"
+    "message": "صيغة النسخ"
   },
   "fmtHtml": {
     "message": "رابط HTML"
@@ -45,6 +45,93 @@
     "message": "الإعدادات"
   },
   "pasteBehaviorLabel": {
-    "message": "سلوك اللصق:"
+    "message": "فتح الروابط في"
+  },
+  "languageAuto": {
+    "message": "تلقائي (لغة المتصفح)"
+  },
+  "languageUpdated": {
+    "message": "تم تغيير اللغة. جارٍ إعادة التحميل…"
+  },
+  "sectionCopyTitle": {
+    "message": "نسخ الروابط"
+  },
+  "sectionPasteTitle": {
+    "message": "فتح الروابط من الحافظة"
+  },
+  "sectionMenuTitle": {
+    "message": "قائمة علامة التبويب"
+  },
+  "fmtTitleUrl": {
+    "message": "العنوان – الرابط"
+  },
+  "copySeparatorLabel": {
+    "message": "الفاصل بين الروابط"
+  },
+  "sepNewline": {
+    "message": "سطر جديد"
+  },
+  "sepBlankLine": {
+    "message": "سطر فارغ"
+  },
+  "sepSpace": {
+    "message": "مسافة"
+  },
+  "sepComma": {
+    "message": "فاصلة"
+  },
+  "copyPreviewLabel": {
+    "message": "مثال"
+  },
+  "copyPreviewHint": {
+    "message": "هكذا ستبدو علامتا تبويب منسوختان في الحافظة."
+  },
+  "pasteActivateLabel": {
+    "message": "الانتقال إلى أول علامة تبويب مفتوحة"
+  },
+  "pasteActivateDesc": {
+    "message": "عند الإيقاف، تُفتح الروابط في علامات تبويب في الخلفية وتبقى في الصفحة الحالية."
+  },
+  "pasteSkipDuplicatesLabel": {
+    "message": "تخطي الروابط المكررة"
+  },
+  "pasteSkipDuplicatesDesc": {
+    "message": "إذا تكرر العنوان نفسه في الحافظة عدة مرات، فسيُفتح مرة واحدة فقط."
+  },
+  "pasteSkipOpenLabel": {
+    "message": "تخطي الروابط المفتوحة بالفعل"
+  },
+  "pasteSkipOpenDesc": {
+    "message": "لا تُفتح مرة أخرى العناوين المفتوحة بالفعل في علامة تبويب."
+  },
+  "confirmThresholdLabel": {
+    "message": "السؤال قبل فتح روابط كثيرة"
+  },
+  "confirmThresholdDesc": {
+    "message": "يطلب التأكيد عندما تحتوي الحافظة على روابط أكثر من هذا العدد. 0 – عدم السؤال أبدًا."
+  },
+  "showPasteMenuLabel": {
+    "message": "إظهار «فتح من الحافظة» في قائمة علامة التبويب"
+  },
+  "showPasteMenuDesc": {
+    "message": "أوقفه إذا كنت تستخدم الإضافة لنسخ الروابط فقط."
+  },
+  "confirmTitle": {
+    "message": "فتح الروابط من الحافظة؟"
+  },
+  "confirmMessage": {
+    "message": "سيتم فتح $COUNT$ من الروابط في علامات تبويب جديدة.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "confirmOpen": {
+    "message": "فتح"
+  },
+  "confirmCancel": {
+    "message": "إلغاء"
   }
 }

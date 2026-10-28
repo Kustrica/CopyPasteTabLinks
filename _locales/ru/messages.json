@@ -24,7 +24,7 @@
     "message": "Новое окно"
   },
   "copyFormatLabel": {
-    "message": "Формат копирования:"
+    "message": "Формат копирования"
   },
   "fmtHtml": {
     "message": "HTML ссылка"
@@ -45,6 +45,93 @@
     "message": "Настройки"
   },
   "pasteBehaviorLabel": {
-    "message": "Поведение вставки:"
+    "message": "Где открывать ссылки"
+  },
+  "languageAuto": {
+    "message": "Авто (язык браузера)"
+  },
+  "languageUpdated": {
+    "message": "Язык изменён. Перезагрузка…"
+  },
+  "sectionCopyTitle": {
+    "message": "Копирование ссылок"
+  },
+  "sectionPasteTitle": {
+    "message": "Открытие ссылок из буфера"
+  },
+  "sectionMenuTitle": {
+    "message": "Меню вкладки"
+  },
+  "fmtTitleUrl": {
+    "message": "Заголовок – ссылка"
+  },
+  "copySeparatorLabel": {
+    "message": "Разделитель между ссылками"
+  },
+  "sepNewline": {
+    "message": "Новая строка"
+  },
+  "sepBlankLine": {
+    "message": "Пустая строка"
+  },
+  "sepSpace": {
+    "message": "Пробел"
+  },
+  "sepComma": {
+    "message": "Запятая"
+  },
+  "copyPreviewLabel": {
+    "message": "Пример"
+  },
+  "copyPreviewHint": {
+    "message": "Так две скопированные вкладки будут выглядеть в буфере обмена."
+  },
+  "pasteActivateLabel": {
+    "message": "Переключаться на первую открытую вкладку"
+  },
+  "pasteActivateDesc": {
+    "message": "Если выключено, ссылки открываются в фоновых вкладках, а вы остаётесь на текущей странице."
+  },
+  "pasteSkipDuplicatesLabel": {
+    "message": "Пропускать повторяющиеся ссылки"
+  },
+  "pasteSkipDuplicatesDesc": {
+    "message": "Если в буфере один и тот же адрес встречается несколько раз, он откроется только один раз."
+  },
+  "pasteSkipOpenLabel": {
+    "message": "Пропускать уже открытые ссылки"
+  },
+  "pasteSkipOpenDesc": {
+    "message": "Адреса, которые уже открыты во вкладках, повторно не открываются."
+  },
+  "confirmThresholdLabel": {
+    "message": "Спрашивать перед открытием множества ссылок"
+  },
+  "confirmThresholdDesc": {
+    "message": "Запрашивает подтверждение, если в буфере больше ссылок, чем это число. 0 — не спрашивать."
+  },
+  "showPasteMenuLabel": {
+    "message": "Показывать пункт «Открыть из буфера» в меню вкладки"
+  },
+  "showPasteMenuDesc": {
+    "message": "Выключите, если используете расширение только для копирования ссылок."
+  },
+  "confirmTitle": {
+    "message": "Открыть ссылки из буфера?"
+  },
+  "confirmMessage": {
+    "message": "Будет открыто ссылок в новых вкладках: $COUNT$.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "confirmOpen": {
+    "message": "Открыть"
+  },
+  "confirmCancel": {
+    "message": "Отмена"
   }
 }

@@ -24,7 +24,7 @@
     "message": "Nieuw venster"
   },
   "copyFormatLabel": {
-    "message": "Kopieerformaat:"
+    "message": "Kopieerformaat"
   },
   "fmtHtml": {
     "message": "HTML-link"
@@ -45,6 +45,93 @@
     "message": "Instellingen"
   },
   "pasteBehaviorLabel": {
-    "message": "Plakgedrag:"
+    "message": "Links openen in"
+  },
+  "languageAuto": {
+    "message": "Automatisch (browsertaal)"
+  },
+  "languageUpdated": {
+    "message": "Taal gewijzigd. Opnieuw laden…"
+  },
+  "sectionCopyTitle": {
+    "message": "Links kopiëren"
+  },
+  "sectionPasteTitle": {
+    "message": "Links openen vanaf het klembord"
+  },
+  "sectionMenuTitle": {
+    "message": "Tabbladmenu"
+  },
+  "fmtTitleUrl": {
+    "message": "Titel – URL"
+  },
+  "copySeparatorLabel": {
+    "message": "Scheidingsteken tussen links"
+  },
+  "sepNewline": {
+    "message": "Nieuwe regel"
+  },
+  "sepBlankLine": {
+    "message": "Lege regel"
+  },
+  "sepSpace": {
+    "message": "Spatie"
+  },
+  "sepComma": {
+    "message": "Komma"
+  },
+  "copyPreviewLabel": {
+    "message": "Voorbeeld"
+  },
+  "copyPreviewHint": {
+    "message": "Zo zien twee gekopieerde tabbladen eruit op het klembord."
+  },
+  "pasteActivateLabel": {
+    "message": "Naar het eerste geopende tabblad gaan"
+  },
+  "pasteActivateDesc": {
+    "message": "Indien uit, openen links in achtergrondtabbladen en blijft u op de huidige pagina."
+  },
+  "pasteSkipDuplicatesLabel": {
+    "message": "Dubbele links overslaan"
+  },
+  "pasteSkipDuplicatesDesc": {
+    "message": "Staat hetzelfde adres meerdere keren op het klembord, dan wordt het maar één keer geopend."
+  },
+  "pasteSkipOpenLabel": {
+    "message": "Al geopende links overslaan"
+  },
+  "pasteSkipOpenDesc": {
+    "message": "Adressen die al in een tabblad open zijn, worden niet opnieuw geopend."
+  },
+  "confirmThresholdLabel": {
+    "message": "Vragen voor het openen van veel links"
+  },
+  "confirmThresholdDesc": {
+    "message": "Vraagt om bevestiging als het klembord meer links bevat dan dit getal. 0 – nooit vragen."
+  },
+  "showPasteMenuLabel": {
+    "message": "‘Openen vanaf klembord’ tonen in het tabbladmenu"
+  },
+  "showPasteMenuDesc": {
+    "message": "Schakel uit als u de extensie alleen gebruikt om links te kopiëren."
+  },
+  "confirmTitle": {
+    "message": "Links vanaf het klembord openen?"
+  },
+  "confirmMessage": {
+    "message": "Er worden $COUNT$ links geopend in nieuwe tabbladen.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "confirmOpen": {
+    "message": "Openen"
+  },
+  "confirmCancel": {
+    "message": "Annuleren"
   }
 }

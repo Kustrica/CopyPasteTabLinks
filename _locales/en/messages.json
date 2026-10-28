@@ -24,7 +24,7 @@
     "message": "Settings"
   },
   "copyFormatLabel": {
-    "message": "Copy Format:"
+    "message": "Copy format"
   },
   "fmtText": {
     "message": "Just URL"
@@ -36,7 +36,7 @@
     "message": "HTML Link"
   },
   "pasteBehaviorLabel": {
-    "message": "Paste Behavior:"
+    "message": "Open links in"
   },
   "pasteCurrent": {
     "message": "Current Window"
@@ -45,9 +45,93 @@
     "message": "New Window"
   },
   "showPasteMenuLabel": {
-    "message": "Show \"Paste & Open\" in context menu"
+    "message": "Show “Open from clipboard” in the tab menu"
   },
   "saved": {
     "message": "Saved"
+  },
+  "languageAuto": {
+    "message": "Auto (browser language)"
+  },
+  "languageUpdated": {
+    "message": "Language updated. Reloading…"
+  },
+  "sectionCopyTitle": {
+    "message": "Copying links"
+  },
+  "sectionPasteTitle": {
+    "message": "Opening links from the clipboard"
+  },
+  "sectionMenuTitle": {
+    "message": "Tab menu"
+  },
+  "fmtTitleUrl": {
+    "message": "Title – URL"
+  },
+  "copySeparatorLabel": {
+    "message": "Separator between links"
+  },
+  "sepNewline": {
+    "message": "New line"
+  },
+  "sepBlankLine": {
+    "message": "Empty line"
+  },
+  "sepSpace": {
+    "message": "Space"
+  },
+  "sepComma": {
+    "message": "Comma"
+  },
+  "copyPreviewLabel": {
+    "message": "Example"
+  },
+  "copyPreviewHint": {
+    "message": "How two copied tabs will look in the clipboard."
+  },
+  "pasteActivateLabel": {
+    "message": "Switch to the first opened tab"
+  },
+  "pasteActivateDesc": {
+    "message": "When off, links open in background tabs and you stay on the current page."
+  },
+  "pasteSkipDuplicatesLabel": {
+    "message": "Skip repeated links"
+  },
+  "pasteSkipDuplicatesDesc": {
+    "message": "If the clipboard contains the same address several times, it opens only once."
+  },
+  "pasteSkipOpenLabel": {
+    "message": "Skip links that are already open"
+  },
+  "pasteSkipOpenDesc": {
+    "message": "Addresses that are already open in a tab are not opened again."
+  },
+  "confirmThresholdLabel": {
+    "message": "Ask before opening many links"
+  },
+  "confirmThresholdDesc": {
+    "message": "Asks for confirmation when the clipboard has more links than this number. 0 – never ask."
+  },
+  "showPasteMenuDesc": {
+    "message": "Turn off if you only use the extension to copy links."
+  },
+  "confirmTitle": {
+    "message": "Open links from the clipboard?"
+  },
+  "confirmMessage": {
+    "message": "$COUNT$ links will be opened in new tabs.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "confirmOpen": {
+    "message": "Open"
+  },
+  "confirmCancel": {
+    "message": "Cancel"
   }
 }

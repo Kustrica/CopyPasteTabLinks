@@ -24,7 +24,7 @@
     "message": "Nuova finestra"
   },
   "copyFormatLabel": {
-    "message": "Formato copia:"
+    "message": "Formato di copia"
   },
   "fmtHtml": {
     "message": "Link HTML"
@@ -45,6 +45,93 @@
     "message": "Impostazioni"
   },
   "pasteBehaviorLabel": {
-    "message": "Comportamento incolla:"
+    "message": "Apri i link in"
+  },
+  "languageAuto": {
+    "message": "Automatico (lingua del browser)"
+  },
+  "languageUpdated": {
+    "message": "Lingua cambiata. Ricaricamento…"
+  },
+  "sectionCopyTitle": {
+    "message": "Copia dei link"
+  },
+  "sectionPasteTitle": {
+    "message": "Apertura dei link dagli appunti"
+  },
+  "sectionMenuTitle": {
+    "message": "Menu della scheda"
+  },
+  "fmtTitleUrl": {
+    "message": "Titolo – URL"
+  },
+  "copySeparatorLabel": {
+    "message": "Separatore tra i link"
+  },
+  "sepNewline": {
+    "message": "Nuova riga"
+  },
+  "sepBlankLine": {
+    "message": "Riga vuota"
+  },
+  "sepSpace": {
+    "message": "Spazio"
+  },
+  "sepComma": {
+    "message": "Virgola"
+  },
+  "copyPreviewLabel": {
+    "message": "Esempio"
+  },
+  "copyPreviewHint": {
+    "message": "Ecco come appariranno due schede copiate negli appunti."
+  },
+  "pasteActivateLabel": {
+    "message": "Passa alla prima scheda aperta"
+  },
+  "pasteActivateDesc": {
+    "message": "Se disattivato, i link si aprono in schede in background e resti sulla pagina corrente."
+  },
+  "pasteSkipDuplicatesLabel": {
+    "message": "Salta i link ripetuti"
+  },
+  "pasteSkipDuplicatesDesc": {
+    "message": "Se lo stesso indirizzo compare più volte negli appunti, viene aperto una sola volta."
+  },
+  "pasteSkipOpenLabel": {
+    "message": "Salta i link già aperti"
+  },
+  "pasteSkipOpenDesc": {
+    "message": "Gli indirizzi già aperti in una scheda non vengono riaperti."
+  },
+  "confirmThresholdLabel": {
+    "message": "Chiedi prima di aprire molti link"
+  },
+  "confirmThresholdDesc": {
+    "message": "Chiede conferma quando gli appunti contengono più link di questo numero. 0 – non chiedere mai."
+  },
+  "showPasteMenuLabel": {
+    "message": "Mostra «Apri dagli appunti» nel menu della scheda"
+  },
+  "showPasteMenuDesc": {
+    "message": "Disattiva se usi l’estensione solo per copiare link."
+  },
+  "confirmTitle": {
+    "message": "Aprire i link dagli appunti?"
+  },
+  "confirmMessage": {
+    "message": "Verranno aperti $COUNT$ link in nuove schede.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "confirmOpen": {
+    "message": "Apri"
+  },
+  "confirmCancel": {
+    "message": "Annulla"
   }
 }

@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title data-i18n="optionsTitle">Options</title>
     <style>
         body {
@@ -9,81 +10,144 @@
             color: #fbfbfe;
             font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             padding: 40px;
-            max-width: 700px;
+            max-width: 760px;
             margin: 0 auto;
         }
-        
-        h1 { 
-            border-bottom: 1px solid #444; 
-            padding-bottom: 15px; 
-            margin-bottom: 30px;
+
+        h1 {
             font-size: 24px;
             font-weight: 600;
+            margin: 0;
         }
-        
-        h2 { 
-            font-size: 18px; 
-            margin-bottom: 15px; 
+
+        h2 {
+            font-size: 17px;
+            margin: 0 0 14px 0;
             color: #ff9400;
+            font-weight: 600;
         }
-        
-        .section { 
+
+        .section {
             background: #2b2a33;
             border-radius: 8px;
-            padding: 10px 20px 20px 20px; 
-            margin-bottom: 25px;
+            padding: 16px 20px 20px 20px;
+            margin-bottom: 22px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.2);
         }
-        
-        .control-group {
-            margin-bottom: 20px;
+
+        .control-group { margin-bottom: 18px; }
+        .control-group:last-child { margin-bottom: 0; }
+
+        .field-row {
+            display: grid;
+            grid-template-columns: 18px 10px minmax(0, 1fr);
+            align-items: start;
         }
-        
-        .control-label {
+        .field-control { grid-column: 1; margin-top: 2px; }
+        .field-body { grid-column: 3; min-width: 0; }
+
+        .field-label {
             display: block;
-            margin-bottom: 8px;
-            font-weight: 500;
+            font-size: 15px;
+            line-height: 1.4;
+            font-weight: 400;
+            cursor: pointer;
         }
-        
-        select {
+        .field-label--heading {
+            font-weight: 500;
+            cursor: default;
+            margin-bottom: 8px;
+        }
+        .field-hint {
+            color: #b8b8c0;
+            font-size: 13px;
+            margin: 6px 0 0 0;
+            line-height: 1.5;
+        }
+
+        .select-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 18px 24px;
+            margin-bottom: 18px;
+        }
+        @media (max-width: 620px) {
+            body { padding: 24px 16px; }
+            .select-grid { grid-template-columns: minmax(0, 1fr); }
+        }
+
+        select, input[type="number"] {
             background: #42414d;
-            color: #fff;
+            color: #fbfbfe;
             border: 1px solid #555;
             padding: 8px 12px;
-            border-radius: 4px;
+            border-radius: 6px;
             font-size: 14px;
-            width: 100%;
-            max-width: 300px;
-            cursor: pointer;
+            font-family: inherit;
             outline: none;
+            box-sizing: border-box;
         }
-        
-        select:focus {
-            border-color: #ff9400;
-        }
-        
-        .checkbox-container {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        
+        select { width: 100%; cursor: pointer; }
+        input[type="number"] { width: 96px; margin-top: 8px; }
+        select:focus, input[type="number"]:focus { border-color: #ff9400; }
+
         input[type="checkbox"] {
             width: 18px;
             height: 18px;
+            margin: 0;
             accent-color: #ff9400;
             cursor: pointer;
         }
 
-        .info-text {
-            color: #ccc;
-            font-size: 14px;
-            margin-top: 5px;
-            line-height: 1.5;
+        .preview {
+            background: #1c1b22;
+            border: 1px solid #3d3c45;
+            border-radius: 6px;
+            padding: 12px 14px;
+            margin: 0;
+            font-family: ui-monospace, "Cascadia Mono", Consolas, "SF Mono", Menlo, monospace;
+            font-size: 13px;
+            line-height: 1.55;
+            color: #e6e6ea;
+            white-space: pre-wrap;
+            overflow-wrap: anywhere;
+            direction: ltr;
+            text-align: left;
+            min-height: 42px;
         }
-        
+
+        .page-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #444;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        .page-header-tools {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .language-select {
+            background: #1c1b22;
+            color: #ccc;
+            border: 1px solid #555;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 13px;
+            width: auto;
+            max-width: 220px;
+        }
+
+        .social-links { display: flex; align-items: center; gap: 15px; }
+        .social-links a { display: flex; align-items: center; text-decoration: none; opacity: 0.8; transition: opacity 0.2s, transform 0.2s; }
+        .social-links a:hover { opacity: 1; transform: scale(1.1); }
+        .social-links img { height: 32px; width: 32px; object-fit: contain; }
+
         #status-msg {
             position: fixed;
             bottom: 20px;
@@ -91,82 +155,138 @@
             z-index: 1000;
             padding: 12px 20px;
             border-radius: 8px;
-            margin-top: 0;
-            text-align: center;
             opacity: 0;
             transition: opacity 0.3s;
             box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-            pointer-events: none; 
+            pointer-events: none;
         }
         #status-msg.success { background: rgba(20, 30, 20, 0.95); color: #4caf50; border: 1px solid #4caf50; opacity: 1; }
-        
-        .social-links {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-        }
-        .social-links a {
-            display: flex;
-            align-items: center;
-            text-decoration: none;
-            opacity: 0.8;
-            transition: opacity 0.2s, transform 0.2s;
-        }
-        .social-links a:hover {
-            opacity: 1;
-            transform: scale(1.1);
-        }
-        .social-links img {
-            height: 32px;
-            width: 32px;
-            object-fit: contain;
-        }
     </style>
 </head>
 <body>
-    <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 15px; margin-bottom: 30px;">
-        <h1 data-i18n="optionsTitle" style="border: none; padding: 0; margin: 0;">Options</h1>
-        <div class="social-links">
-             <a href="https://github.com/Kustrica/CopyPasteTabLinks" target="_blank" title="GitHub">
-                <img src="icons/github-64.png">
-            </a>
-            <a href="https://t.me/kustric" target="_blank" title="Telegram">
-                <img src="icons/telegram-1000-1000.png">
-            </a>
-            <a href="https://ko-fi.com/kustrica" target="_blank" title="Ko-fi">
-                <img src="icons/kofi-321-258.png">
-            </a>
-            <a href="https://www.patreon.com/kustrica" target="_blank" title="Patreon">
-                <img src="icons/patreon-128-140.png">
-            </a>
-            <a href="https://boosty.to/kustrica" target="_blank" title="Boosty">
-                <img src="icons/boosty-128-154.png">
-            </a>
+    <div class="page-header">
+        <h1 data-i18n="optionsTitle">Options</h1>
+        <div class="page-header-tools">
+            <select id="ui-language-select" class="language-select" aria-label="Language">
+                <option value="auto" data-i18n="languageAuto">Auto (Browser)</option>
+                <option value="ar">العربية (Arabic)</option>
+                <option value="be">Беларуская (Belarusian)</option>
+                <option value="de">Deutsch (German)</option>
+                <option value="en">English</option>
+                <option value="es">Español (Spanish)</option>
+                <option value="fr">Français (French)</option>
+                <option value="id">Bahasa Indonesia (Indonesian)</option>
+                <option value="it">Italiano (Italian)</option>
+                <option value="ja">日本語 (Japanese)</option>
+                <option value="ko">한국어 (Korean)</option>
+                <option value="nl">Nederlands (Dutch)</option>
+                <option value="pl">Polski (Polish)</option>
+                <option value="pt_BR">Português (Brasil)</option>
+                <option value="ru">Русский (Russian)</option>
+                <option value="tr">Türkçe (Turkish)</option>
+                <option value="uk">Українська (Ukrainian)</option>
+                <option value="vi">Tiếng Việt (Vietnamese)</option>
+                <option value="zh_CN">简体中文 (Chinese Simplified)</option>
+                <option value="zh_TW">繁體中文 (Chinese Traditional)</option>
+            </select>
+            <div class="social-links">
+                <a href="https://github.com/Kustrica/CopyPasteTabLinks" target="_blank" title="GitHub"><img src="icons/github-64.png" alt="GitHub"></a>
+                <a href="https://t.me/kustric" target="_blank" title="Telegram"><img src="icons/telegram-1000-1000.png" alt="Telegram"></a>
+                <a href="https://ko-fi.com/kustrica" target="_blank" title="Ko-fi"><img src="icons/kofi-321-258.png" alt="Ko-fi"></a>
+                <a href="https://www.patreon.com/kustrica" target="_blank" title="Patreon"><img src="icons/patreon-128-140.png" alt="Patreon"></a>
+                <a href="https://boosty.to/kustrica" target="_blank" title="Boosty"><img src="icons/boosty-128-154.png" alt="Boosty"></a>
+            </div>
         </div>
     </div>
 
     <div class="section">
-        <!-- <h2 data-i18n="settingsTitle">Settings</h2> -->
-        
-        <div class="control-group">
-            <label class="control-label" data-i18n="copyFormatLabel">Copy Format:</label>
-            <select id="copy-format">
-                <option value="text" data-i18n="fmtText">Just URL</option>
-                <option value="markdown" data-i18n="fmtMarkdown">Markdown [Title](Url)</option>
-                <option value="html" data-i18n="fmtHtml">HTML Link</option>
-            </select>
+        <h2 data-i18n="sectionCopyTitle">Copying links</h2>
+        <div class="select-grid">
+            <div>
+                <label for="copy-format" class="field-label field-label--heading" data-i18n="copyFormatLabel">Copy format</label>
+                <select id="copy-format">
+                    <option value="text" data-i18n="fmtText">Just URL</option>
+                    <option value="titleUrl" data-i18n="fmtTitleUrl">Title – URL</option>
+                    <option value="markdown" data-i18n="fmtMarkdown">Markdown [Title](Url)</option>
+                    <option value="html" data-i18n="fmtHtml">HTML Link</option>
+                </select>
+            </div>
+            <div>
+                <label for="copy-separator" class="field-label field-label--heading" data-i18n="copySeparatorLabel">Separator between links</label>
+                <select id="copy-separator">
+                    <option value="newline" data-i18n="sepNewline">New line</option>
+                    <option value="blankLine" data-i18n="sepBlankLine">Empty line</option>
+                    <option value="space" data-i18n="sepSpace">Space</option>
+                    <option value="comma" data-i18n="sepComma">Comma</option>
+                </select>
+            </div>
         </div>
+        <div class="field-label field-label--heading" data-i18n="copyPreviewLabel">Example</div>
+        <pre id="copy-preview" class="preview"></pre>
+        <p class="field-hint" data-i18n="copyPreviewHint">How two copied tabs will look in the clipboard.</p>
+    </div>
 
+    <div class="section">
+        <h2 data-i18n="sectionPasteTitle">Opening links from the clipboard</h2>
+        <div class="select-grid">
+            <div>
+                <label for="paste-behavior" class="field-label field-label--heading" data-i18n="pasteBehaviorLabel">Open links in</label>
+                <select id="paste-behavior">
+                    <option value="current" data-i18n="pasteCurrent">Current Window</option>
+                    <option value="new" data-i18n="pasteNew">New Window</option>
+                </select>
+            </div>
+        </div>
         <div class="control-group">
-            <label class="control-label" data-i18n="pasteBehaviorLabel">Paste Behavior:</label>
-            <select id="paste-behavior">
-                <option value="current" data-i18n="pasteCurrent">Current Window</option>
-                <option value="new" data-i18n="pasteNew">New Window</option>
-            </select>
+            <div class="field-row">
+                <input type="checkbox" id="paste-activate" class="field-control">
+                <div class="field-body">
+                    <label for="paste-activate" class="field-label" data-i18n="pasteActivateLabel">Switch to the first opened tab</label>
+                    <p class="field-hint" data-i18n="pasteActivateDesc">When off, links open in background tabs and you stay on the current page.</p>
+                </div>
+            </div>
+        </div>
+        <div class="control-group">
+            <div class="field-row">
+                <input type="checkbox" id="paste-skip-duplicates" class="field-control">
+                <div class="field-body">
+                    <label for="paste-skip-duplicates" class="field-label" data-i18n="pasteSkipDuplicatesLabel">Skip repeated links</label>
+                    <p class="field-hint" data-i18n="pasteSkipDuplicatesDesc">If the clipboard contains the same address several times, it opens only once.</p>
+                </div>
+            </div>
+        </div>
+        <div class="control-group">
+            <div class="field-row">
+                <input type="checkbox" id="paste-skip-open" class="field-control">
+                <div class="field-body">
+                    <label for="paste-skip-open" class="field-label" data-i18n="pasteSkipOpenLabel">Skip links that are already open</label>
+                    <p class="field-hint" data-i18n="pasteSkipOpenDesc">Addresses that are already open in a tab are not opened again.</p>
+                </div>
+            </div>
+        </div>
+        <div class="control-group">
+            <label for="confirm-threshold" class="field-label field-label--heading" data-i18n="confirmThresholdLabel">Ask before opening many links</label>
+            <p class="field-hint" data-i18n="confirmThresholdDesc">Asks for confirmation when the clipboard has more links than this number. 0 – never ask.</p>
+            <input type="number" id="confirm-threshold" min="0" max="999" step="1">
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 data-i18n="sectionMenuTitle">Tab menu</h2>
+        <div class="control-group">
+            <div class="field-row">
+                <input type="checkbox" id="show-paste-menu" class="field-control">
+                <div class="field-body">
+                    <label for="show-paste-menu" class="field-label" data-i18n="showPasteMenuLabel">Show “Open from clipboard” in the tab menu</label>
+                    <p class="field-hint" data-i18n="showPasteMenuDesc">Turn off if you only use the extension to copy links.</p>
+                </div>
+            </div>
         </div>
     </div>
 
     <div id="status-msg"></div>
+    <script src="i18n.js"></script>
+    <script src="format.js"></script>
     <script src="options.js"></script>
 </body>
 </html>

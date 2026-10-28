@@ -24,7 +24,7 @@
     "message": "新窗口"
   },
   "copyFormatLabel": {
-    "message": "复制格式："
+    "message": "复制格式"
   },
   "fmtHtml": {
     "message": "HTML 链接"
@@ -45,6 +45,93 @@
     "message": "设置"
   },
   "pasteBehaviorLabel": {
-    "message": "粘贴行为："
+    "message": "链接打开位置"
+  },
+  "languageAuto": {
+    "message": "自动（浏览器语言）"
+  },
+  "languageUpdated": {
+    "message": "语言已更改，正在重新加载…"
+  },
+  "sectionCopyTitle": {
+    "message": "复制链接"
+  },
+  "sectionPasteTitle": {
+    "message": "打开剪贴板中的链接"
+  },
+  "sectionMenuTitle": {
+    "message": "标签页菜单"
+  },
+  "fmtTitleUrl": {
+    "message": "标题 – URL"
+  },
+  "copySeparatorLabel": {
+    "message": "链接之间的分隔符"
+  },
+  "sepNewline": {
+    "message": "换行"
+  },
+  "sepBlankLine": {
+    "message": "空行"
+  },
+  "sepSpace": {
+    "message": "空格"
+  },
+  "sepComma": {
+    "message": "逗号"
+  },
+  "copyPreviewLabel": {
+    "message": "示例"
+  },
+  "copyPreviewHint": {
+    "message": "复制的两个标签页在剪贴板中会是这样。"
+  },
+  "pasteActivateLabel": {
+    "message": "切换到第一个打开的标签页"
+  },
+  "pasteActivateDesc": {
+    "message": "关闭时，链接会在后台标签页中打开，您仍停留在当前页面。"
+  },
+  "pasteSkipDuplicatesLabel": {
+    "message": "跳过重复的链接"
+  },
+  "pasteSkipDuplicatesDesc": {
+    "message": "如果剪贴板中同一地址出现多次，只打开一次。"
+  },
+  "pasteSkipOpenLabel": {
+    "message": "跳过已打开的链接"
+  },
+  "pasteSkipOpenDesc": {
+    "message": "已在标签页中打开的地址不会再次打开。"
+  },
+  "confirmThresholdLabel": {
+    "message": "打开大量链接前询问"
+  },
+  "confirmThresholdDesc": {
+    "message": "当剪贴板中的链接多于此数字时请求确认。0 表示从不询问。"
+  },
+  "showPasteMenuLabel": {
+    "message": "在标签页菜单中显示“从剪贴板打开”"
+  },
+  "showPasteMenuDesc": {
+    "message": "如果只用此扩展复制链接，请关闭。"
+  },
+  "confirmTitle": {
+    "message": "打开剪贴板中的链接？"
+  },
+  "confirmMessage": {
+    "message": "将在新标签页中打开 $COUNT$ 个链接。",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "confirmOpen": {
+    "message": "打开"
+  },
+  "confirmCancel": {
+    "message": "取消"
   }
 }

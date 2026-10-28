@@ -24,7 +24,7 @@
     "message": "新視窗"
   },
   "copyFormatLabel": {
-    "message": "複製格式："
+    "message": "複製格式"
   },
   "fmtHtml": {
     "message": "HTML 連結"
@@ -45,6 +45,93 @@
     "message": "設定"
   },
   "pasteBehaviorLabel": {
-    "message": "貼上行為："
+    "message": "連結開啟位置"
+  },
+  "languageAuto": {
+    "message": "自動（瀏覽器語言）"
+  },
+  "languageUpdated": {
+    "message": "語言已變更，正在重新載入…"
+  },
+  "sectionCopyTitle": {
+    "message": "複製連結"
+  },
+  "sectionPasteTitle": {
+    "message": "開啟剪貼簿中的連結"
+  },
+  "sectionMenuTitle": {
+    "message": "分頁選單"
+  },
+  "fmtTitleUrl": {
+    "message": "標題 – URL"
+  },
+  "copySeparatorLabel": {
+    "message": "連結之間的分隔符號"
+  },
+  "sepNewline": {
+    "message": "換行"
+  },
+  "sepBlankLine": {
+    "message": "空行"
+  },
+  "sepSpace": {
+    "message": "空格"
+  },
+  "sepComma": {
+    "message": "逗號"
+  },
+  "copyPreviewLabel": {
+    "message": "範例"
+  },
+  "copyPreviewHint": {
+    "message": "複製的兩個分頁在剪貼簿中會是這樣。"
+  },
+  "pasteActivateLabel": {
+    "message": "切換到第一個開啟的分頁"
+  },
+  "pasteActivateDesc": {
+    "message": "關閉時，連結會在背景分頁中開啟，您仍停留在目前頁面。"
+  },
+  "pasteSkipDuplicatesLabel": {
+    "message": "略過重複的連結"
+  },
+  "pasteSkipDuplicatesDesc": {
+    "message": "如果剪貼簿中同一網址出現多次，只會開啟一次。"
+  },
+  "pasteSkipOpenLabel": {
+    "message": "略過已開啟的連結"
+  },
+  "pasteSkipOpenDesc": {
+    "message": "已在分頁中開啟的網址不會再次開啟。"
+  },
+  "confirmThresholdLabel": {
+    "message": "開啟大量連結前詢問"
+  },
+  "confirmThresholdDesc": {
+    "message": "當剪貼簿中的連結多於此數字時要求確認。0 表示永不詢問。"
+  },
+  "showPasteMenuLabel": {
+    "message": "在分頁選單中顯示「從剪貼簿開啟」"
+  },
+  "showPasteMenuDesc": {
+    "message": "如果只用此擴充套件複製連結，請關閉。"
+  },
+  "confirmTitle": {
+    "message": "開啟剪貼簿中的連結？"
+  },
+  "confirmMessage": {
+    "message": "將在新分頁中開啟 $COUNT$ 個連結。",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "confirmOpen": {
+    "message": "開啟"
+  },
+  "confirmCancel": {
+    "message": "取消"
   }
 }

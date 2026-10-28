@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title data-i18n="confirmTitle">Open links from the clipboard?</title>
+    <style>
+        html, body { height: 100%; }
+        body {
+            margin: 0;
+            background: #2b2a33;
+            color: #fbfbfe;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px 24px;
+            box-sizing: border-box;
+        }
+        h1 { font-size: 17px; font-weight: 600; color: #ff9400; margin: 0 0 10px 0; }
+        p { font-size: 14px; line-height: 1.5; color: #d8d8e0; margin: 0 0 20px 0; }
+        .actions { display: flex; gap: 10px; justify-content: flex-end; }
+        button {
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-family: inherit;
+            cursor: pointer;
+        }
+        #open-btn { background: #ff9400; color: #1c1b22; border: none; font-weight: 600; }
+        #open-btn:hover { background: #ffb347; }
+        #cancel-btn { background: transparent; color: #d8d8e0; border: 1px solid #555; }
+        #cancel-btn:hover { border-color: #777; color: #fbfbfe; }
+    </style>
+</head>
+<body>
+    <h1 data-i18n="confirmTitle">Open links from the clipboard?</h1>
+    <p id="confirm-message"></p>
+    <div class="actions">
+        <button type="button" id="cancel-btn" data-i18n="confirmCancel">Cancel</button>
+        <button type="button" id="open-btn" data-i18n="confirmOpen">Open</button>
+    </div>
+    <script src="i18n.js"></script>
+    <script src="confirm.js"></script>
+</body>
+</html>

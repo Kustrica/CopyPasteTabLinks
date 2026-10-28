@@ -24,7 +24,7 @@
     "message": "Yeni pencere"
   },
   "copyFormatLabel": {
-    "message": "Kopyalama biçimi:"
+    "message": "Kopyalama biçimi"
   },
   "fmtHtml": {
     "message": "HTML Bağlantısı"
@@ -45,6 +45,93 @@
     "message": "Ayarlar"
   },
   "pasteBehaviorLabel": {
-    "message": "Yapıştırma davranışı:"
+    "message": "Bağlantıları şurada aç"
+  },
+  "languageAuto": {
+    "message": "Otomatik (tarayıcı dili)"
+  },
+  "languageUpdated": {
+    "message": "Dil değiştirildi. Yeniden yükleniyor…"
+  },
+  "sectionCopyTitle": {
+    "message": "Bağlantıları kopyalama"
+  },
+  "sectionPasteTitle": {
+    "message": "Panodaki bağlantıları açma"
+  },
+  "sectionMenuTitle": {
+    "message": "Sekme menüsü"
+  },
+  "fmtTitleUrl": {
+    "message": "Başlık – URL"
+  },
+  "copySeparatorLabel": {
+    "message": "Bağlantılar arasındaki ayırıcı"
+  },
+  "sepNewline": {
+    "message": "Yeni satır"
+  },
+  "sepBlankLine": {
+    "message": "Boş satır"
+  },
+  "sepSpace": {
+    "message": "Boşluk"
+  },
+  "sepComma": {
+    "message": "Virgül"
+  },
+  "copyPreviewLabel": {
+    "message": "Örnek"
+  },
+  "copyPreviewHint": {
+    "message": "Kopyalanan iki sekme panoda böyle görünecek."
+  },
+  "pasteActivateLabel": {
+    "message": "Açılan ilk sekmeye geç"
+  },
+  "pasteActivateDesc": {
+    "message": "Kapalıyken bağlantılar arka plan sekmelerinde açılır ve geçerli sayfada kalırsınız."
+  },
+  "pasteSkipDuplicatesLabel": {
+    "message": "Tekrarlanan bağlantıları atla"
+  },
+  "pasteSkipDuplicatesDesc": {
+    "message": "Aynı adres panoda birkaç kez geçiyorsa yalnızca bir kez açılır."
+  },
+  "pasteSkipOpenLabel": {
+    "message": "Zaten açık olan bağlantıları atla"
+  },
+  "pasteSkipOpenDesc": {
+    "message": "Bir sekmede zaten açık olan adresler yeniden açılmaz."
+  },
+  "confirmThresholdLabel": {
+    "message": "Çok sayıda bağlantı açmadan önce sor"
+  },
+  "confirmThresholdDesc": {
+    "message": "Panoda bu sayıdan fazla bağlantı varsa onay ister. 0 – hiç sorma."
+  },
+  "showPasteMenuLabel": {
+    "message": "Sekme menüsünde “Panodan aç” öğesini göster"
+  },
+  "showPasteMenuDesc": {
+    "message": "Uzantıyı yalnızca bağlantı kopyalamak için kullanıyorsanız kapatın."
+  },
+  "confirmTitle": {
+    "message": "Panodaki bağlantılar açılsın mı?"
+  },
+  "confirmMessage": {
+    "message": "$COUNT$ bağlantı yeni sekmelerde açılacak.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "confirmOpen": {
+    "message": "Aç"
+  },
+  "confirmCancel": {
+    "message": "İptal"
   }
 }

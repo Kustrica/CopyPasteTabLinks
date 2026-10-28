@@ -24,7 +24,7 @@
     "message": "Neues Fenster"
   },
   "copyFormatLabel": {
-    "message": "Kopierformat:"
+    "message": "Kopierformat"
   },
   "fmtHtml": {
     "message": "HTML-Link"
@@ -45,6 +45,93 @@
     "message": "Einstellungen"
   },
   "pasteBehaviorLabel": {
-    "message": "Einfügeverhalten:"
+    "message": "Links öffnen in"
+  },
+  "languageAuto": {
+    "message": "Automatisch (Browsersprache)"
+  },
+  "languageUpdated": {
+    "message": "Sprache geändert. Wird neu geladen…"
+  },
+  "sectionCopyTitle": {
+    "message": "Links kopieren"
+  },
+  "sectionPasteTitle": {
+    "message": "Links aus der Zwischenablage öffnen"
+  },
+  "sectionMenuTitle": {
+    "message": "Tab-Menü"
+  },
+  "fmtTitleUrl": {
+    "message": "Titel – URL"
+  },
+  "copySeparatorLabel": {
+    "message": "Trennzeichen zwischen Links"
+  },
+  "sepNewline": {
+    "message": "Neue Zeile"
+  },
+  "sepBlankLine": {
+    "message": "Leerzeile"
+  },
+  "sepSpace": {
+    "message": "Leerzeichen"
+  },
+  "sepComma": {
+    "message": "Komma"
+  },
+  "copyPreviewLabel": {
+    "message": "Beispiel"
+  },
+  "copyPreviewHint": {
+    "message": "So sehen zwei kopierte Tabs in der Zwischenablage aus."
+  },
+  "pasteActivateLabel": {
+    "message": "Zum ersten geöffneten Tab wechseln"
+  },
+  "pasteActivateDesc": {
+    "message": "Wenn aus, öffnen sich die Links in Hintergrund-Tabs und Sie bleiben auf der aktuellen Seite."
+  },
+  "pasteSkipDuplicatesLabel": {
+    "message": "Doppelte Links überspringen"
+  },
+  "pasteSkipDuplicatesDesc": {
+    "message": "Kommt dieselbe Adresse mehrmals in der Zwischenablage vor, wird sie nur einmal geöffnet."
+  },
+  "pasteSkipOpenLabel": {
+    "message": "Bereits geöffnete Links überspringen"
+  },
+  "pasteSkipOpenDesc": {
+    "message": "Adressen, die bereits in einem Tab geöffnet sind, werden nicht erneut geöffnet."
+  },
+  "confirmThresholdLabel": {
+    "message": "Vor dem Öffnen vieler Links nachfragen"
+  },
+  "confirmThresholdDesc": {
+    "message": "Fragt nach einer Bestätigung, wenn die Zwischenablage mehr Links als diese Zahl enthält. 0 – nie fragen."
+  },
+  "showPasteMenuLabel": {
+    "message": "„Aus Zwischenablage öffnen“ im Tab-Menü anzeigen"
+  },
+  "showPasteMenuDesc": {
+    "message": "Ausschalten, wenn Sie die Erweiterung nur zum Kopieren von Links nutzen."
+  },
+  "confirmTitle": {
+    "message": "Links aus der Zwischenablage öffnen?"
+  },
+  "confirmMessage": {
+    "message": "$COUNT$ Links werden in neuen Tabs geöffnet.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "confirmOpen": {
+    "message": "Öffnen"
+  },
+  "confirmCancel": {
+    "message": "Abbrechen"
   }
 }

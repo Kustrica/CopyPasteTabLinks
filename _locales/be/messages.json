@@ -1,53 +1,137 @@
 {
   "extensionName": {
-    "message": "CopyTabs - Copy/Paste Tab Links"
+    "message": "Copy Paste Tab Links"
   },
   "extensionDescription": {
-    "message": "Капіраванне спасылак усіх адкрытых укладак і адкрыццё іх пазней."
+    "message": "Капіяванне спасылак з выбраных укладак як тэкст/Markdown/HTML і адкрыццё спасылак з буфера ў бягучым або новым акне."
   },
-  "copySuccess": {
-    "message": "Спасылкі скапіяваны!"
+  "copyUrlSingular": {
+    "message": "Капіяваць адрас старонкі"
   },
-  "copyError": {
-    "message": "Памылка капіявання"
+  "copyUrlPlural": {
+    "message": "Капіяваць адрасы старонак"
   },
-  "pasteError": {
-    "message": "Няма сапраўдных спасылак у буферы абмену"
+  "openUrlSingular": {
+    "message": "Адкрыць адрас з буфера"
   },
-  "contextMenuCopy": {
-    "message": "Капіяваць спасылкі ўкладак"
-  },
-  "contextMenuPaste": {
-    "message": "Уставіць спасылкі ўкладак"
+  "openUrlPlural": {
+    "message": "Адкрыць адрасы з буфера"
   },
   "optionsTitle": {
     "message": "Налады"
   },
-  "pasteNew": {
-    "message": "Новае акно"
+  "settingsTitle": {
+    "message": "Налады"
   },
   "copyFormatLabel": {
-    "message": "Фармат капіявання:"
-  },
-  "fmtHtml": {
-    "message": "HTML спасылка"
-  },
-  "fmtMarkdown": {
-    "message": "Markdown [Загаловак](Url)"
+    "message": "Фармат капіявання"
   },
   "fmtText": {
     "message": "Толькі спасылка"
   },
+  "fmtMarkdown": {
+    "message": "Markdown [Загаловак](Url)"
+  },
+  "fmtHtml": {
+    "message": "HTML спасылка"
+  },
+  "pasteBehaviorLabel": {
+    "message": "Дзе адкрываць спасылкі"
+  },
   "pasteCurrent": {
     "message": "Бягучае акно"
+  },
+  "pasteNew": {
+    "message": "Новае акно"
+  },
+  "showPasteMenuLabel": {
+    "message": "Паказваць пункт «Адкрыць з буфера» ў меню ўкладкі"
   },
   "saved": {
     "message": "Захавана"
   },
-  "settingsTitle": {
-    "message": "Налады"
+  "languageAuto": {
+    "message": "Аўта (мова браўзера)"
   },
-  "pasteBehaviorLabel": {
-    "message": "Паводзіны ўстаўкі:"
+  "languageUpdated": {
+    "message": "Мова зменена. Перазагрузка…"
+  },
+  "sectionCopyTitle": {
+    "message": "Капіяванне спасылак"
+  },
+  "sectionPasteTitle": {
+    "message": "Адкрыццё спасылак з буфера"
+  },
+  "sectionMenuTitle": {
+    "message": "Меню ўкладкі"
+  },
+  "fmtTitleUrl": {
+    "message": "Загаловак – спасылка"
+  },
+  "copySeparatorLabel": {
+    "message": "Раздзяляльнік паміж спасылкамі"
+  },
+  "sepNewline": {
+    "message": "Новы радок"
+  },
+  "sepBlankLine": {
+    "message": "Пусты радок"
+  },
+  "sepSpace": {
+    "message": "Прабел"
+  },
+  "sepComma": {
+    "message": "Коска"
+  },
+  "copyPreviewLabel": {
+    "message": "Прыклад"
+  },
+  "copyPreviewHint": {
+    "message": "Так дзве скапіяваныя ўкладкі будуць выглядаць у буферы абмену."
+  },
+  "pasteActivateLabel": {
+    "message": "Пераключацца на першую адкрытую ўкладку"
+  },
+  "pasteActivateDesc": {
+    "message": "Калі выключана, спасылкі адкрываюцца ў фонавых укладках, а вы застаяцеся на бягучай старонцы."
+  },
+  "pasteSkipDuplicatesLabel": {
+    "message": "Прапускаць спасылкі, якія паўтараюцца"
+  },
+  "pasteSkipDuplicatesDesc": {
+    "message": "Калі ў буферы адзін і той жа адрас сустракаецца некалькі разоў, ён адкрыецца толькі адзін раз."
+  },
+  "pasteSkipOpenLabel": {
+    "message": "Прапускаць ужо адкрытыя спасылкі"
+  },
+  "pasteSkipOpenDesc": {
+    "message": "Адрасы, якія ўжо адкрыты ва ўкладках, паўторна не адкрываюцца."
+  },
+  "confirmThresholdLabel": {
+    "message": "Пытаць перад адкрыццём мноства спасылак"
+  },
+  "confirmThresholdDesc": {
+    "message": "Запытвае пацвярджэнне, калі ў буферы больш спасылак, чым гэты лік. 0 — не пытаць."
+  },
+  "showPasteMenuDesc": {
+    "message": "Выключыце, калі выкарыстоўваеце пашырэнне толькі для капіявання спасылак."
+  },
+  "confirmTitle": {
+    "message": "Адкрыць спасылкі з буфера?"
+  },
+  "confirmMessage": {
+    "message": "Колькасць спасылак, якія адкрыюцца ў новых укладках: $COUNT$.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "confirmOpen": {
+    "message": "Адкрыць"
+  },
+  "confirmCancel": {
+    "message": "Скасаваць"
   }
 }
