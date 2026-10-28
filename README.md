@@ -15,7 +15,7 @@ A lightweight Firefox extension for working with many tabs: copy the URLs of sev
 ## Features
 - **Copy selected tabs** – select tabs with **Ctrl** or **Shift + click**, right-click any of them and choose **Copy Page Addresses**. URLs are copied one per line, as plain URLs, **Markdown** `[Title](Url)` or **HTML** links.
 - **Open links from the clipboard** – right-click a tab and choose **Open Page Addresses from Clipboard**. The extension finds valid URLs in the clipboard text and opens each in its own tab, in the current or a new window.
-- **Options** – choose the copy format, the paste behavior, and whether the "Paste & Open" item is shown.
+- **Options** – choose the copy format and whether pasted links open in the current or a new window.
 
 ## Technical details
 - Manifest V3, event-based: no background memory when idle
