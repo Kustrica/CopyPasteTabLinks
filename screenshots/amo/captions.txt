@@ -1,7 +1,10 @@
 Copy Paste Tab Links – AMO screenshot captions (upload in this order)
 
 01_copy_selected_tabs.png
-Select several tabs, right-click any of them and choose Copy Page Addresses – all URLs go to the clipboard.
+Select several tabs, right-click any of them and choose Copy Page Addresses – all URLs go to the clipboard in the format you choose.
 
 02_open_from_clipboard.png
 Right-click a tab and choose Open Page Addresses from Clipboard – every copied link opens in its own tab.
+
+03_settings_format_preview.png
+Settings: pick the copy format and separator with a live example, choose where pasted links open, skip repeated or already open links, and get asked before opening a large batch.
